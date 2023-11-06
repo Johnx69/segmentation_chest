@@ -1,0 +1,15 @@
+2023-11-06 07:05:40,540 - INFO - Used Weight File: checkpoints/alpha_1/resnet50_unet/epoch_199.ckpt
+2023-11-06 07:05:50,159 - INFO - pixel_acc_infected: 0.9733, dice_infected: 0.7952,iou_infected: 0.6632, precision_infected: 0.8156, recall_infected: 0.7788 
+ pixel_acc_lungs: 0.9837, dice_lungs: 0.9657,iou_lungs: 0.9337, precision_lungs: 0.9715, recall_lungs: 0.9600 
+    precision_classification: 0.9065, recall_classification: 0.9078,f1_score_classification: 0.9009 
+
+2023-11-06 07:06:19,006 - INFO - 8.07G
+2023-11-06 07:06:19,007 - INFO - pixel_acc_infected: 0.9733, dice_infected: 0.7810,iou_infected: 0.6864, precision_infected: 0.8076, recall_infected: 0.8244 
+ pixel_acc_lungs: 0.9837, dice_lungs: 0.9648,iou_lungs: 0.9329, precision_lungs: 0.9705, recall_lungs: 0.9601 
+    precision_classification: 0.9160, recall_classification: 0.9166,f1_score_classification: 0.9131 
+
+2023-11-06 07:06:19,007 - INFO - after postprocess
+2023-11-06 07:06:51,491 - INFO - pixel_acc_infected: 0.9734, dice_infected: 0.7817,iou_infected: 0.6997, precision_infected: 0.8103, recall_infected: 0.8404 
+ pixel_acc_lungs: 0.9838, dice_lungs: 0.9646,iou_lungs: 0.9327, precision_lungs: 0.9700, recall_lungs: 0.9603 
+    precision_classification: 0.9191, recall_classification: 0.9195,f1_score_classification: 0.9172 
+

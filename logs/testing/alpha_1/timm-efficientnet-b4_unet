@@ -1,0 +1,15 @@
+2023-11-06 08:36:19,076 - INFO - Used Weight File: checkpoints/alpha_1/timm-efficientnet-b4_unet/epoch_199.ckpt
+2023-11-06 08:36:30,132 - INFO - pixel_acc_infected: 0.9763, dice_infected: 0.8165,iou_infected: 0.6969, precision_infected: 0.8216, recall_infected: 0.8166 
+ pixel_acc_lungs: 0.9836, dice_lungs: 0.9654,iou_lungs: 0.9333, precision_lungs: 0.9705, recall_lungs: 0.9605 
+    precision_classification: 0.9246, recall_classification: 0.9240,f1_score_classification: 0.9133 
+
+2023-11-06 08:37:17,296 - INFO - 8.11G
+2023-11-06 08:37:17,297 - INFO - pixel_acc_infected: 0.9763, dice_infected: 0.8436,iou_infected: 0.7556, precision_infected: 0.8525, recall_infected: 0.8555 
+ pixel_acc_lungs: 0.9836, dice_lungs: 0.9645,iou_lungs: 0.9323, precision_lungs: 0.9696, recall_lungs: 0.9603 
+    precision_classification: 0.9319, recall_classification: 0.9316,f1_score_classification: 0.9262 
+
+2023-11-06 08:37:17,297 - INFO - after postprocess
+2023-11-06 08:38:04,796 - INFO - pixel_acc_infected: 0.9763, dice_infected: 0.8527,iou_infected: 0.7753, precision_infected: 0.8636, recall_infected: 0.8689 
+ pixel_acc_lungs: 0.9836, dice_lungs: 0.9642,iou_lungs: 0.9320, precision_lungs: 0.9691, recall_lungs: 0.9605 
+    precision_classification: 0.9343, recall_classification: 0.9341,f1_score_classification: 0.9305 
+

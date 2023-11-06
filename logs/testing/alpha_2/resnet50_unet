@@ -1,0 +1,15 @@
+2023-11-05 12:11:14,579 - INFO - Used Weight File: checkpoints/resnet50_unet/sample_best.ckpt
+2023-11-05 12:11:24,168 - INFO - pixel_acc_infected: 0.9730, dice_infected: 0.7960,iou_infected: 0.6634, precision_infected: 0.8093, recall_infected: 0.7857 
+ pixel_acc_lungs: 0.9839, dice_lungs: 0.9661,iou_lungs: 0.9345, precision_lungs: 0.9710, recall_lungs: 0.9613 
+    precision_classification: 0.8974, recall_classification: 0.9004,f1_score_classification: 0.8930 
+
+2023-11-05 12:11:54,669 - INFO - 8.07G
+2023-11-05 12:11:54,670 - INFO - pixel_acc_infected: 0.9730, dice_infected: 0.7759,iou_infected: 0.6806, precision_infected: 0.7964, recall_infected: 0.8298 
+ pixel_acc_lungs: 0.9839, dice_lungs: 0.9652,iou_lungs: 0.9337, precision_lungs: 0.9701, recall_lungs: 0.9612 
+    precision_classification: 0.9105, recall_classification: 0.9120,f1_score_classification: 0.9084 
+
+2023-11-05 12:11:54,670 - INFO - after postprocess
+2023-11-05 12:12:26,868 - INFO - pixel_acc_infected: 0.9730, dice_infected: 0.7730,iou_infected: 0.6902, precision_infected: 0.7961, recall_infected: 0.8455 
+ pixel_acc_lungs: 0.9839, dice_lungs: 0.9650,iou_lungs: 0.9334, precision_lungs: 0.9696, recall_lungs: 0.9614 
+    precision_classification: 0.9149, recall_classification: 0.9159,f1_score_classification: 0.9135 
+
