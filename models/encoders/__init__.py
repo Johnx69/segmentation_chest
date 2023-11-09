@@ -9,7 +9,7 @@ from .mobilenet import mobilenet_encoders
 from .timm_mobilenetv3 import timm_mobilenetv3_encoders
 from .timm_universal import TimmUniversalEncoder
 from .timm_efficientnet import timm_efficientnet_encoders
-
+from .mix_tranformer import mix_transformer_encoders
 from ._preprocessing import preprocess_input
 
 encoders = {}
@@ -19,6 +19,7 @@ encoders.update(inceptionv4_encoders)
 encoders.update(mobilenet_encoders)
 encoders.update(timm_mobilenetv3_encoders)
 encoders.update(timm_efficientnet_encoders)
+encoders.update(mix_transformer_encoders)
 
 
 def get_encoder(name, in_channels=3, depth=5, weights=None, output_stride=32, **kwargs):
