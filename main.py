@@ -1,5 +1,5 @@
 import torch
-from utils.metrics import AverageMeter, calculate_overlap_metrics
+from utils.metrics import AverageMeter, calculate_overlap_metrics, calculate_f1_score
 from model import Model
 import gc
 import torch.nn as nn
@@ -16,13 +16,13 @@ import os
 ############# Define Parser #######################
 parser = argparse.ArgumentParser()
 
-parser.add_argument('--learning_rate', type=float, default=0.001)
-parser.add_argument('--num_epochs', type=int, default=200)
-parser.add_argument('--batch_size', type=int, default=16)
-parser.add_argument('--patience', type=int, default=300)
-parser.add_argument('--best_acc', type=int, default=0)
-parser.add_argument('--save_every', type=int, default=5)
-parser.add_argument('--alpha', type=int, default=1)
+parser.add_argument("--learning_rate", type=float, default=0.0001)
+parser.add_argument("--num_epochs", type=int, default=200)
+parser.add_argument("--batch_size", type=int, default=16)
+parser.add_argument("--patience", type=int, default=300)
+parser.add_argument("--best_acc", type=int, default=0)
+parser.add_argument("--save_every", type=int, default=10)
+parser.add_argument("--alpha", type=int, default=1)
 
 args = parser.parse_args()
 
@@ -50,19 +50,25 @@ gc.collect()
 print(model_config)
 
 ################### Define Logging #####################
-log_file = f'logs/training/alpha_{alpha}/{custom_model.encoder_name}_{custom_model.decoder_name}'
-logging.basicConfig(level=logging.INFO,
-                    format='%(asctime)s - %(levelname)s - %(message)s',
-                    handlers=[
-                        logging.StreamHandler(),  # Log to the console
-                        logging.FileHandler(log_file)  # Log to a file
-                    ])
+log_file = f"logs/training/alpha_{alpha}/{custom_model.encoder_name}_{custom_model.decoder_name}"
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    handlers=[
+        logging.StreamHandler(),  # Log to the console
+        logging.FileHandler(log_file),  # Log to a file
+    ],
+)
 
 # Log the model information
-logging.info(f'Model Information: \n Encoder Name: {custom_model.encoder_name}, Decoder Name: {custom_model.decoder_name}')
+logging.info(
+    f"Model Information: \n Encoder Name: {custom_model.encoder_name}, Decoder Name: {custom_model.decoder_name}"
+)
 
 # Log the information
-logging.info(f'Training Information: \n Learning Rate: {learning_rate}, Num Epochs: {num_epochs}, Batch Size: {batch_size}, Patience: {patience}, Best Accuracy: {best_acc}, Save Every: {save_every}, Alpha: {alpha}')
+logging.info(
+    f"Training Information: \n Learning Rate: {learning_rate}, Num Epochs: {num_epochs}, Batch Size: {batch_size}, Patience: {patience}, Best Accuracy: {best_acc}, Save Every: {save_every}, Alpha: {alpha}"
+)
 
 
 ############ Define Metric ###############
@@ -90,7 +96,9 @@ val_data = Covid(
     mode="val",
 )
 
-train_loader = DataLoader(train_data, batch_size=batch_size, shuffle=True, num_workers=2)
+train_loader = DataLoader(
+    train_data, batch_size=batch_size, shuffle=True, num_workers=2
+)
 val_loader = DataLoader(val_data, batch_size=batch_size, shuffle=True, num_workers=2)
 # Set up model
 model = model.to(device)
@@ -283,13 +291,19 @@ for epoch in range(num_epochs):
     #             f1_score(y_true, y_pred, average='macro')
     val_loss /= len(val_loader.dataset)
     scheduler.step(val_loss)
+
+    f1_score_infected_meter = calculate_f1_score(
+        precision_infected_meter.avg, recall_infected_meter.avg
+    )
+    f1_score_lungs_meter = calculate_f1_score(precision_lungs_meter.avg, recall_lungs_meter.avg)
+
     logging.info(
         f"Epoch {epoch+1}/{num_epochs}, Train Loss: {train_loss:.4f}, Val Loss: {val_loss:.4f} \n \
-    pixel_acc_infected: {pixel_acc_infected_meter.avg :.4f}, dice_infected: {dice_infected_meter.avg :.4f},iou_infected: {iou_infected_meter.avg :.4f}, precision_infected: {precision_infected_meter.avg :.4f}, recall_infected: {recall_infected_meter.avg :.4f} \n \
-    pixel_acc_lungs: {pixel_acc_lungs_meter.avg :.4f}, dice_lungs: {dice_lungs_meter.avg :.4f},iou_lungs: {iou_lungs_meter.avg :.4f}, precision_lungs: {precision_lungs_meter.avg :.4f}, recall_lungs: {recall_lungs_meter.avg :.4f} \n\
+    pixel_acc_infected: {pixel_acc_infected_meter.avg :.4f}, dice_infected: {dice_infected_meter.avg :.4f},iou_infected: {iou_infected_meter.avg :.4f}, precision_infected: {precision_infected_meter.avg :.4f}, recall_infected: {recall_infected_meter.avg :.4f}, f1_score_infected: {f1_score_infected_meter :.4f} \n \
+    pixel_acc_lungs: {pixel_acc_lungs_meter.avg :.4f}, dice_lungs: {dice_lungs_meter.avg :.4f},iou_lungs: {iou_lungs_meter.avg :.4f}, precision_lungs: {precision_lungs_meter.avg :.4f}, recall_lungs: {recall_lungs_meter.avg :.4f}, f1_score_lungs: {f1_score_lungs_meter :.4f} \n\
      precision_classification: {precision_classification_meter.avg :.4f}, recall_classification: {recall_classification_meter.avg :.4f},f1_score_classification: {f1_score_classification_meter.avg :.4f} \n"
     )
-    
+
     saving_folder = f"checkpoints/alpha_{alpha}/{custom_model.encoder_name}_{custom_model.decoder_name}"
     if not os.path.exists(saving_folder):
         os.makedirs(saving_folder)

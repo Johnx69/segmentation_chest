@@ -67,7 +67,9 @@ class MobileNetV3Encoder(nn.Module, EncoderMixin):
                 self.model.blocks[5:],
             ]
         else:
-            ValueError("MobileNetV3 mode should be small or large, got {}".format(self._mode))
+            ValueError(
+                "MobileNetV3 mode should be small or large, got {}".format(self._mode)
+            )
 
     def forward(self, x):
         stages = self.get_stages()

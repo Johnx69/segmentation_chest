@@ -1044,4 +1044,4 @@
      pixel_acc_lungs: 0.9832, dice_lungs: 0.9649,iou_lungs: 0.9325, precision_lungs: 0.9700, recall_lungs: 0.9599 
      precision_classification: 0.8662, recall_classification: 0.8633,f1_score_classification: 0.8480 
 
-2023-11-06 04:13:59,460 - INFO - save model at epoch 200, saving model
+2023-11-06 04:13:59,460 - INFO - save model at epoch 200, saving model2023-11-07 14:25:10,327 - INFO - Model Information: 

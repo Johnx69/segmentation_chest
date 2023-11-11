@@ -36,6 +36,11 @@ class SegmentationModel(torch.nn.Module):
         self.check_input_shape(x)
 
         features = self.encoder(x)
+        # import numpy as np
+        # list_of_tensors_cpu = [tensor.detach().cpu().numpy() for tensor in features]
+        # print(len(list_of_tensors_cpu))
+        # for tensor in list_of_tensors_cpu:
+        #     print(tensor.shape)
         decoder_output_1 = self.decoder_1(*features)
 
         decoder_output_2 = self.decoder_1(*features)

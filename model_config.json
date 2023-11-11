@@ -1,5 +1,5 @@
 {
-    "encoder_name": "resnet50",
+    "encoder_name": "mit_b3",
     "decoder_name": "unet",
     "classes": 3,
     "pooling": "avg",

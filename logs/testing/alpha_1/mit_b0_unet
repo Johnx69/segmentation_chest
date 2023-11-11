@@ -1,0 +1,16 @@
+2023-11-11 00:12:27,958 - INFO - Used Weight File: checkpoints/alpha_1/mit_b0_unet/epoch_199.ckpt
+2023-11-11 00:12:35,128 - INFO - pixel_acc_infected: 0.9700, dice_infected: 0.7580,iou_infected: 0.6174, precision_infected: 0.7934, recall_infected: 0.7409, f1_score_infected: 0.7663 
+ pixel_acc_lungs: 0.9810, dice_lungs: 0.9599,iou_lungs: 0.9230, precision_lungs: 0.9639, recall_lungs: 0.9560, f1_score_lungs: 0.9600 
+    precision_classification: 0.8257, recall_classification: 0.8307,f1_score_classification: 0.8129 
+
+2023-11-11 00:13:04,314 - INFO - 2.45G
+2023-11-11 00:13:04,314 - INFO - pixel_acc_infected: 0.9700, dice_infected: 0.7823,iou_infected: 0.7242, precision_infected: 0.8285, recall_infected: 0.8490, f1_score_infected: 0.8386 
+ pixel_acc_lungs: 0.9810, dice_lungs: 0.9573,iou_lungs: 0.9205, precision_lungs: 0.9613, recall_lungs: 0.9556, f1_score_lungs: 0.9585 
+    precision_classification: 0.8645, recall_classification: 0.8645,f1_score_classification: 0.8645 
+
+2023-11-11 00:13:04,327 - INFO - after postprocess
+2023-11-11 00:13:36,172 - INFO - pixel_acc_infected: 0.9701, dice_infected: 0.7865,iou_infected: 0.7285, precision_infected: 0.8315, recall_infected: 0.8507, f1_score_infected: 0.8410 
+ pixel_acc_lungs: 0.9810, dice_lungs: 0.9574,iou_lungs: 0.9207, precision_lungs: 0.9610, recall_lungs: 0.9561, f1_score_lungs: 0.9585  
+    precision_classification: 0.8645, recall_classification: 0.8645,f1_score_classification: 0.8645 
+
+
