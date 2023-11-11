@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "encoder_name": "mit_b3",
+=======
+    "encoder_name": "mit_b0",
+>>>>>>> c9aa5c196f30bef973d85aef56d14d290c994a18
     "decoder_name": "unet",
     "classes": 3,
     "pooling": "avg",

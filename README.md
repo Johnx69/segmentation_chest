@@ -17,7 +17,7 @@ Step 3:
 ```bash
 pip install --no-cache-dir -r requirements.txt
 ```
-## 2. Results
+## 2. Results (CNN)
 
 
 | Condition          | Backbone        | Classification F1 Score | Lung segmentation F1 Score | Lung segmentation IoU | Lung segmentation Dice | Infection segmentation F1 Score | Infection segmentation IoU | Infection segmentation Dice | Mean F1 |
@@ -34,6 +34,7 @@ pip install --no-cache-dir -r requirements.txt
 |                    | Inceptionv4     | 92.09                 | 95.14                    | 90.77               | 95.05                | 82.21                          | 71.30                     | 80.39                     | 89.81   |
 |                    | efficientnet-b4 | 93.05                 | 96.47                    | 93.20               | 96.42                | 86.62                          | 77.53                     | 85.27                     | 92.04   |
 
+<<<<<<< HEAD
 
 
 (16, 3, 256, 256)
@@ -64,3 +65,18 @@ list_of_tensors_cpu = [tensor.detach().cpu().numpy() for tensor in features]
 print(len(list_of_tensors_cpu))
 for tensor in list_of_tensors_cpu:
     print(tensor.shape)
+=======
+## 2. Results (Transformer)
+
+|                  | Backbone | Classification F1 score | Lung segmentation F1 score | Lung segmentation IoU | Lung segmentation Dice | Infection segmentation F1 score | Infection segmentation IoU | Infection segmentation Dice | Mean F1 score |
+|------------------|----------|--------------------------|---------------------------|-----------------------|------------------------|--------------------------------|-----------------------------|------------------------------|---------------|
+| w/o processing   | mit_b0   | 86.45                    | 95.85                     | 92.05                 | 95.73                  | 83.86                          | 72.42                       | 78.23                        | 88.72         |
+|                  | mit_b1   | 87.99                    | 96.19                     | 92.67                 | 96.10                  | 85.72                          | 75.48                       | 81.09                        | 89.97         |
+|                  | mit_b2   | 91.68                    | 96.19                     | 92.68                 | 96.10                  | 87.30                          | 78.49                       | 84.08                        | 91.72         |
+|                  | mit_b3   | 91.34                    | 96.20                     | 92.71                 | 96.11                  | 86.62                          | 77.25                       | 82.92                        | 91.38         |
+|                  |          |                          |                           |                       |                        |                                |                             |                              |               |
+| w post processing | mit_b0   | 86.45                    | 95.85                     | 92.07                 | 95.74                  | 84.10                          | 72.85                       | 78.65                        | 88.8          |
+|                  | mit_b1   | 87.99                    | 96.19                     | 92.68                 | 96.11                  | 86.03                          | 75.93                       | 81.54                        | 90.07         |
+|                  | mit_b2   | 91.68                    | 96.19                     | 92.70                 | 96.11                  | 87.74                          | 79.02                       | 84.59                        | 91.87         |
+|                  | mit_b3   | 91.34                    | 96.21                     | 92.73                 | 96.13                  | 86.89                          | 77.60                       | 83.26                        | 91.48         |
+>>>>>>> c9aa5c196f30bef973d85aef56d14d290c994a18

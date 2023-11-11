@@ -9,9 +9,13 @@ from .mobilenet import mobilenet_encoders
 from .timm_mobilenetv3 import timm_mobilenetv3_encoders
 from .timm_universal import TimmUniversalEncoder
 from .timm_efficientnet import timm_efficientnet_encoders
+<<<<<<< HEAD
 from .timm_vit import timm_vit_encoders
 from .mix_transformer import mix_transformer_encoders
 
+=======
+from .mix_tranformer import mix_transformer_encoders
+>>>>>>> c9aa5c196f30bef973d85aef56d14d290c994a18
 from ._preprocessing import preprocess_input
 
 encoders = {}
@@ -21,7 +25,10 @@ encoders.update(inceptionv4_encoders)
 encoders.update(mobilenet_encoders)
 encoders.update(timm_mobilenetv3_encoders)
 encoders.update(timm_efficientnet_encoders)
+<<<<<<< HEAD
 encoders.update(timm_vit_encoders)
+=======
+>>>>>>> c9aa5c196f30bef973d85aef56d14d290c994a18
 encoders.update(mix_transformer_encoders)
 
 
