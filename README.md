@@ -34,38 +34,6 @@ pip install --no-cache-dir -r requirements.txt
 |                    | Inceptionv4     | 92.09                 | 95.14                    | 90.77               | 95.05                | 82.21                          | 71.30                     | 80.39                     | 89.81   |
 |                    | efficientnet-b4 | 93.05                 | 96.47                    | 93.20               | 96.42                | 86.62                          | 77.53                     | 85.27                     | 92.04   |
 
-<<<<<<< HEAD
-
-
-(16, 3, 256, 256)
-(16, 256, 768)
-(16, 256, 768)
-(16, 256, 768)
-(16, 256, 768)
-(16, 256, 768)
-
-to this size 
-(16, 3, 256, 256)
-(16, 64, 128, 128)
-(16, 256, 64, 64)
-(16, 512, 32, 32)
-(16, 1024, 16, 16)
-(16, 2048, 8, 8)
-
-
-(16, 3, 256, 256)
-(16, 64, 128, 128)
-(16, 192, 64, 64)
-(16, 384, 32, 32)
-(16, 1024, 16, 16)
-(16, 1536, 8, 8)
-
-import numpy as np
-list_of_tensors_cpu = [tensor.detach().cpu().numpy() for tensor in features]
-print(len(list_of_tensors_cpu))
-for tensor in list_of_tensors_cpu:
-    print(tensor.shape)
-=======
 ## 2. Results (Transformer)
 
 |                  | Backbone | Classification F1 score | Lung segmentation F1 score | Lung segmentation IoU | Lung segmentation Dice | Infection segmentation F1 score | Infection segmentation IoU | Infection segmentation Dice | Mean F1 score |
