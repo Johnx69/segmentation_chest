@@ -16,7 +16,7 @@ import os
 ############# Define Parser #######################
 parser = argparse.ArgumentParser()
 
-parser.add_argument("--learning_rate", type=float, default=0.0001)
+parser.add_argument("--learning_rate", type=float, default=0.001)
 parser.add_argument("--num_epochs", type=int, default=200)
 parser.add_argument("--batch_size", type=int, default=16)
 parser.add_argument("--patience", type=int, default=300)
@@ -295,7 +295,9 @@ for epoch in range(num_epochs):
     f1_score_infected_meter = calculate_f1_score(
         precision_infected_meter.avg, recall_infected_meter.avg
     )
-    f1_score_lungs_meter = calculate_f1_score(precision_lungs_meter.avg, recall_lungs_meter.avg)
+    f1_score_lungs_meter = calculate_f1_score(
+        precision_lungs_meter.avg, recall_lungs_meter.avg
+    )
 
     logging.info(
         f"Epoch {epoch+1}/{num_epochs}, Train Loss: {train_loss:.4f}, Val Loss: {val_loss:.4f} \n \

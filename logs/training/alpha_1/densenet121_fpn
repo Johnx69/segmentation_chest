@@ -1,0 +1,1082 @@
+2023-11-13 18:19:02,928 - INFO - Model Information: 
+ Encoder Name: densenet121, Decoder Name: fpn
+2023-11-13 18:19:02,929 - INFO - Training Information: 
+ Learning Rate: 0.001, Num Epochs: 200, Batch Size: 16, Patience: 300, Best Accuracy: 0, Save Every: 10, Alpha: 1
+2023-11-13 18:20:03,900 - INFO - Epoch 1/200, Train Loss: 1.2203, Val Loss: 0.3646 
+     pixel_acc_infected: 0.9418, dice_infected: 0.5939,iou_infected: 0.4283, precision_infected: 0.5755, recall_infected: 0.6362, f1_score_infected: 0.6043 
+     pixel_acc_lungs: 0.9495, dice_lungs: 0.8958,iou_lungs: 0.8115, precision_lungs: 0.8893, recall_lungs: 0.9028, f1_score_lungs: 0.8960 
+     precision_classification: 0.6557, recall_classification: 0.6016,f1_score_classification: 0.5782 
+
+2023-11-13 18:20:03,914 - INFO - Best model found at epoch 1, saving model
+2023-11-13 18:20:04,488 - INFO - save model at epoch 1, saving model
+2023-11-13 18:20:59,631 - INFO - Epoch 2/200, Train Loss: 0.8939, Val Loss: 0.4350 
+     pixel_acc_infected: 0.9428, dice_infected: 0.5262,iou_infected: 0.3677, precision_infected: 0.6168, recall_infected: 0.5020, f1_score_infected: 0.5535 
+     pixel_acc_lungs: 0.9518, dice_lungs: 0.8978,iou_lungs: 0.8151, precision_lungs: 0.9160, recall_lungs: 0.8821, f1_score_lungs: 0.8988 
+     precision_classification: 0.5815, recall_classification: 0.5977,f1_score_classification: 0.5455 
+
+2023-11-13 18:21:54,138 - INFO - Epoch 3/200, Train Loss: 0.7599, Val Loss: 0.2607 
+     pixel_acc_infected: 0.9459, dice_infected: 0.5433,iou_infected: 0.3845, precision_infected: 0.6522, recall_infected: 0.5042, f1_score_infected: 0.5688 
+     pixel_acc_lungs: 0.9552, dice_lungs: 0.9056,iou_lungs: 0.8281, precision_lungs: 0.9174, recall_lungs: 0.8956, f1_score_lungs: 0.9064 
+     precision_classification: 0.6394, recall_classification: 0.6450,f1_score_classification: 0.6034 
+
+2023-11-13 18:22:48,627 - INFO - Epoch 4/200, Train Loss: 0.6534, Val Loss: 0.2516 
+     pixel_acc_infected: 0.9482, dice_infected: 0.5559,iou_infected: 0.3965, precision_infected: 0.6796, recall_infected: 0.5041, f1_score_infected: 0.5789 
+     pixel_acc_lungs: 0.9582, dice_lungs: 0.9120,iou_lungs: 0.8389, precision_lungs: 0.9238, recall_lungs: 0.9016, f1_score_lungs: 0.9126 
+     precision_classification: 0.6742, recall_classification: 0.6632,f1_score_classification: 0.6298 
+
+2023-11-13 18:23:43,781 - INFO - Epoch 5/200, Train Loss: 0.5909, Val Loss: 0.3036 
+     pixel_acc_infected: 0.9499, dice_infected: 0.5744,iou_infected: 0.4148, precision_infected: 0.6821, recall_infected: 0.5286, f1_score_infected: 0.5956 
+     pixel_acc_lungs: 0.9598, dice_lungs: 0.9149,iou_lungs: 0.8439, precision_lungs: 0.9315, recall_lungs: 0.9001, f1_score_lungs: 0.9156 
+     precision_classification: 0.6963, recall_classification: 0.6744,f1_score_classification: 0.6462 
+
+2023-11-13 18:24:39,202 - INFO - Epoch 6/200, Train Loss: 0.5703, Val Loss: 0.3296 
+     pixel_acc_infected: 0.9502, dice_infected: 0.5938,iou_infected: 0.4350, precision_infected: 0.6704, recall_infected: 0.5771, f1_score_infected: 0.6203 
+     pixel_acc_lungs: 0.9616, dice_lungs: 0.9188,iou_lungs: 0.8504, precision_lungs: 0.9344, recall_lungs: 0.9046, f1_score_lungs: 0.9193 
+     precision_classification: 0.6974, recall_classification: 0.6674,f1_score_classification: 0.6414 
+
+2023-11-13 18:25:34,238 - INFO - Epoch 7/200, Train Loss: 0.5283, Val Loss: 0.1722 
+     pixel_acc_infected: 0.9519, dice_infected: 0.6067,iou_infected: 0.4483, precision_infected: 0.6813, recall_infected: 0.5864, f1_score_infected: 0.6303 
+     pixel_acc_lungs: 0.9631, dice_lungs: 0.9219,iou_lungs: 0.8559, precision_lungs: 0.9380, recall_lungs: 0.9073, f1_score_lungs: 0.9224 
+     precision_classification: 0.7155, recall_classification: 0.6862,f1_score_classification: 0.6607 
+
+2023-11-13 18:26:29,859 - INFO - Epoch 8/200, Train Loss: 0.4900, Val Loss: 0.3352 
+     pixel_acc_infected: 0.9515, dice_infected: 0.6126,iou_infected: 0.4539, precision_infected: 0.6710, recall_infected: 0.6061, f1_score_infected: 0.6369 
+     pixel_acc_lungs: 0.9635, dice_lungs: 0.9228,iou_lungs: 0.8574, precision_lungs: 0.9386, recall_lungs: 0.9084, f1_score_lungs: 0.9232 
+     precision_classification: 0.7166, recall_classification: 0.6885,f1_score_classification: 0.6595 
+
+2023-11-13 18:27:25,493 - INFO - Epoch 9/200, Train Loss: 0.5083, Val Loss: 0.1704 
+     pixel_acc_infected: 0.9524, dice_infected: 0.6133,iou_infected: 0.4543, precision_infected: 0.6943, recall_infected: 0.5931, f1_score_infected: 0.6397 
+     pixel_acc_lungs: 0.9647, dice_lungs: 0.9253,iou_lungs: 0.8618, precision_lungs: 0.9413, recall_lungs: 0.9106, f1_score_lungs: 0.9257 
+     precision_classification: 0.7316, recall_classification: 0.7040,f1_score_classification: 0.6760 
+
+2023-11-13 18:28:20,896 - INFO - Epoch 10/200, Train Loss: 0.4495, Val Loss: 0.2532 
+     pixel_acc_infected: 0.9532, dice_infected: 0.6143,iou_infected: 0.4552, precision_infected: 0.7055, recall_infected: 0.5858, f1_score_infected: 0.6401 
+     pixel_acc_lungs: 0.9655, dice_lungs: 0.9271,iou_lungs: 0.8649, precision_lungs: 0.9423, recall_lungs: 0.9132, f1_score_lungs: 0.9275 
+     precision_classification: 0.7280, recall_classification: 0.7013,f1_score_classification: 0.6730 
+
+2023-11-13 18:29:16,207 - INFO - Epoch 11/200, Train Loss: 0.4511, Val Loss: 1.3925 
+     pixel_acc_infected: 0.9516, dice_infected: 0.5716,iou_infected: 0.4217, precision_infected: 0.7231, recall_infected: 0.5405, f1_score_infected: 0.6186 
+     pixel_acc_lungs: 0.9648, dice_lungs: 0.9251,iou_lungs: 0.8614, precision_lungs: 0.9449, recall_lungs: 0.9072, f1_score_lungs: 0.9257 
+     precision_classification: 0.7116, recall_classification: 0.6878,f1_score_classification: 0.6498 
+
+2023-11-13 18:29:16,208 - INFO - save model at epoch 11, saving model
+2023-11-13 18:30:12,138 - INFO - Epoch 12/200, Train Loss: 0.4690, Val Loss: 0.1515 
+     pixel_acc_infected: 0.9526, dice_infected: 0.5867,iou_infected: 0.4373, precision_infected: 0.7225, recall_infected: 0.5631, f1_score_infected: 0.6329 
+     pixel_acc_lungs: 0.9658, dice_lungs: 0.9273,iou_lungs: 0.8653, precision_lungs: 0.9464, recall_lungs: 0.9101, f1_score_lungs: 0.9279 
+     precision_classification: 0.7233, recall_classification: 0.7001,f1_score_classification: 0.6646 
+
+2023-11-13 18:31:07,880 - INFO - Epoch 13/200, Train Loss: 0.4155, Val Loss: 0.1672 
+     pixel_acc_infected: 0.9533, dice_infected: 0.5896,iou_infected: 0.4391, precision_infected: 0.7345, recall_infected: 0.5576, f1_score_infected: 0.6340 
+     pixel_acc_lungs: 0.9666, dice_lungs: 0.9292,iou_lungs: 0.8685, precision_lungs: 0.9475, recall_lungs: 0.9125, f1_score_lungs: 0.9297 
+     precision_classification: 0.7340, recall_classification: 0.7112,f1_score_classification: 0.6767 
+
+2023-11-13 18:32:03,676 - INFO - Epoch 14/200, Train Loss: 0.4128, Val Loss: 0.1607 
+     pixel_acc_infected: 0.9542, dice_infected: 0.5982,iou_infected: 0.4473, precision_infected: 0.7423, recall_infected: 0.5620, f1_score_infected: 0.6397 
+     pixel_acc_lungs: 0.9674, dice_lungs: 0.9309,iou_lungs: 0.8716, precision_lungs: 0.9486, recall_lungs: 0.9148, f1_score_lungs: 0.9314 
+     precision_classification: 0.7370, recall_classification: 0.7160,f1_score_classification: 0.6809 
+
+2023-11-13 18:32:59,789 - INFO - Epoch 15/200, Train Loss: 0.4021, Val Loss: 0.2774 
+     pixel_acc_infected: 0.9548, dice_infected: 0.6080,iou_infected: 0.4574, precision_infected: 0.7390, recall_infected: 0.5790, f1_score_infected: 0.6493 
+     pixel_acc_lungs: 0.9679, dice_lungs: 0.9321,iou_lungs: 0.8736, precision_lungs: 0.9489, recall_lungs: 0.9167, f1_score_lungs: 0.9325 
+     precision_classification: 0.7422, recall_classification: 0.7186,f1_score_classification: 0.6856 
+
+2023-11-13 18:33:58,753 - INFO - Epoch 16/200, Train Loss: 0.3996, Val Loss: 0.1466 
+     pixel_acc_infected: 0.9557, dice_infected: 0.6172,iou_infected: 0.4671, precision_infected: 0.7418, recall_infected: 0.5889, f1_score_infected: 0.6566 
+     pixel_acc_lungs: 0.9686, dice_lungs: 0.9335,iou_lungs: 0.8762, precision_lungs: 0.9497, recall_lungs: 0.9188, f1_score_lungs: 0.9340 
+     precision_classification: 0.7476, recall_classification: 0.7244,f1_score_classification: 0.6927 
+
+2023-11-13 18:35:03,783 - INFO - Epoch 17/200, Train Loss: 0.3788, Val Loss: 0.1173 
+     pixel_acc_infected: 0.9562, dice_infected: 0.6260,iou_infected: 0.4765, precision_infected: 0.7384, recall_infected: 0.6063, f1_score_infected: 0.6659 
+     pixel_acc_lungs: 0.9692, dice_lungs: 0.9349,iou_lungs: 0.8786, precision_lungs: 0.9502, recall_lungs: 0.9209, f1_score_lungs: 0.9353 
+     precision_classification: 0.7555, recall_classification: 0.7339,f1_score_classification: 0.7032 
+
+2023-11-13 18:36:10,996 - INFO - Epoch 18/200, Train Loss: 0.3828, Val Loss: 0.2615 
+     pixel_acc_infected: 0.9561, dice_infected: 0.6203,iou_infected: 0.4709, precision_infected: 0.7446, recall_infected: 0.5948, f1_score_infected: 0.6613 
+     pixel_acc_lungs: 0.9698, dice_lungs: 0.9361,iou_lungs: 0.8808, precision_lungs: 0.9506, recall_lungs: 0.9229, f1_score_lungs: 0.9366 
+     precision_classification: 0.7583, recall_classification: 0.7393,f1_score_classification: 0.7080 
+
+2023-11-13 18:37:11,734 - INFO - Epoch 19/200, Train Loss: 0.3974, Val Loss: 0.2644 
+     pixel_acc_infected: 0.9562, dice_infected: 0.6262,iou_infected: 0.4768, precision_infected: 0.7395, recall_infected: 0.6086, f1_score_infected: 0.6677 
+     pixel_acc_lungs: 0.9702, dice_lungs: 0.9369,iou_lungs: 0.8821, precision_lungs: 0.9518, recall_lungs: 0.9233, f1_score_lungs: 0.9373 
+     precision_classification: 0.7588, recall_classification: 0.7393,f1_score_classification: 0.7086 
+
+2023-11-13 18:38:13,056 - INFO - Epoch 20/200, Train Loss: 0.3639, Val Loss: 0.1132 
+     pixel_acc_infected: 0.9569, dice_infected: 0.6329,iou_infected: 0.4838, precision_infected: 0.7441, recall_infected: 0.6135, f1_score_infected: 0.6725 
+     pixel_acc_lungs: 0.9706, dice_lungs: 0.9377,iou_lungs: 0.8835, precision_lungs: 0.9529, recall_lungs: 0.9238, f1_score_lungs: 0.9381 
+     precision_classification: 0.7656, recall_classification: 0.7469,f1_score_classification: 0.7171 
+
+2023-11-13 18:39:25,692 - INFO - Epoch 21/200, Train Loss: 0.3675, Val Loss: 0.1180 
+     pixel_acc_infected: 0.9576, dice_infected: 0.6399,iou_infected: 0.4915, precision_infected: 0.7481, recall_infected: 0.6198, f1_score_infected: 0.6780 
+     pixel_acc_lungs: 0.9709, dice_lungs: 0.9386,iou_lungs: 0.8851, precision_lungs: 0.9527, recall_lungs: 0.9256, f1_score_lungs: 0.9390 
+     precision_classification: 0.7704, recall_classification: 0.7528,f1_score_classification: 0.7237 
+
+2023-11-13 18:39:25,694 - INFO - save model at epoch 21, saving model
+2023-11-13 18:40:35,435 - INFO - Epoch 22/200, Train Loss: 0.3309, Val Loss: 0.1759 
+     pixel_acc_infected: 0.9579, dice_infected: 0.6399,iou_infected: 0.4910, precision_infected: 0.7542, recall_infected: 0.6151, f1_score_infected: 0.6776 
+     pixel_acc_lungs: 0.9713, dice_lungs: 0.9394,iou_lungs: 0.8866, precision_lungs: 0.9529, recall_lungs: 0.9271, f1_score_lungs: 0.9398 
+     precision_classification: 0.7740, recall_classification: 0.7562,f1_score_classification: 0.7280 
+
+2023-11-13 18:41:56,325 - INFO - Epoch 23/200, Train Loss: 0.3519, Val Loss: 0.1975 
+     pixel_acc_infected: 0.9582, dice_infected: 0.6454,iou_infected: 0.4968, precision_infected: 0.7524, recall_infected: 0.6249, f1_score_infected: 0.6827 
+     pixel_acc_lungs: 0.9716, dice_lungs: 0.9400,iou_lungs: 0.8876, precision_lungs: 0.9530, recall_lungs: 0.9281, f1_score_lungs: 0.9404 
+     precision_classification: 0.7760, recall_classification: 0.7582,f1_score_classification: 0.7302 
+
+2023-11-13 18:43:13,860 - INFO - Epoch 24/200, Train Loss: 0.3502, Val Loss: 0.1375 
+     pixel_acc_infected: 0.9583, dice_infected: 0.6424,iou_infected: 0.4936, precision_infected: 0.7591, recall_infected: 0.6172, f1_score_infected: 0.6808 
+     pixel_acc_lungs: 0.9719, dice_lungs: 0.9407,iou_lungs: 0.8887, precision_lungs: 0.9526, recall_lungs: 0.9298, f1_score_lungs: 0.9411 
+     precision_classification: 0.7795, recall_classification: 0.7621,f1_score_classification: 0.7345 
+
+2023-11-13 18:44:15,005 - INFO - Epoch 25/200, Train Loss: 0.3249, Val Loss: 0.1097 
+     pixel_acc_infected: 0.9588, dice_infected: 0.6478,iou_infected: 0.4997, precision_infected: 0.7581, recall_infected: 0.6261, f1_score_infected: 0.6858 
+     pixel_acc_lungs: 0.9722, dice_lungs: 0.9413,iou_lungs: 0.8899, precision_lungs: 0.9526, recall_lungs: 0.9311, f1_score_lungs: 0.9417 
+     precision_classification: 0.7840, recall_classification: 0.7671,f1_score_classification: 0.7401 
+
+2023-11-13 18:45:16,475 - INFO - Epoch 26/200, Train Loss: 0.3298, Val Loss: 1.5895 
+     pixel_acc_infected: 0.9583, dice_infected: 0.6368,iou_infected: 0.4897, precision_infected: 0.7611, recall_infected: 0.6118, f1_score_infected: 0.6783 
+     pixel_acc_lungs: 0.9720, dice_lungs: 0.9410,iou_lungs: 0.8894, precision_lungs: 0.9508, recall_lungs: 0.9323, f1_score_lungs: 0.9415 
+     precision_classification: 0.7723, recall_classification: 0.7584,f1_score_classification: 0.7273 
+
+2023-11-13 18:46:17,747 - INFO - Epoch 27/200, Train Loss: 0.3341, Val Loss: 0.1631 
+     pixel_acc_infected: 0.9586, dice_infected: 0.6420,iou_infected: 0.4953, precision_infected: 0.7593, recall_infected: 0.6211, f1_score_infected: 0.6833 
+     pixel_acc_lungs: 0.9723, dice_lungs: 0.9416,iou_lungs: 0.8904, precision_lungs: 0.9517, recall_lungs: 0.9326, f1_score_lungs: 0.9421 
+     precision_classification: 0.7745, recall_classification: 0.7596,f1_score_classification: 0.7292 
+
+2023-11-13 18:47:17,996 - INFO - Epoch 28/200, Train Loss: 0.3311, Val Loss: 0.1958 
+     pixel_acc_infected: 0.9586, dice_infected: 0.6418,iou_infected: 0.4945, precision_infected: 0.7592, recall_infected: 0.6188, f1_score_infected: 0.6819 
+     pixel_acc_lungs: 0.9725, dice_lungs: 0.9421,iou_lungs: 0.8913, precision_lungs: 0.9520, recall_lungs: 0.9333, f1_score_lungs: 0.9425 
+     precision_classification: 0.7761, recall_classification: 0.7624,f1_score_classification: 0.7321 
+
+2023-11-13 18:48:15,206 - INFO - Epoch 29/200, Train Loss: 0.3349, Val Loss: 0.2739 
+     pixel_acc_infected: 0.9590, dice_infected: 0.6460,iou_infected: 0.4991, precision_infected: 0.7594, recall_infected: 0.6243, f1_score_infected: 0.6852 
+     pixel_acc_lungs: 0.9727, dice_lungs: 0.9426,iou_lungs: 0.8922, precision_lungs: 0.9522, recall_lungs: 0.9340, f1_score_lungs: 0.9430 
+     precision_classification: 0.7763, recall_classification: 0.7605,f1_score_classification: 0.7310 
+
+2023-11-13 18:49:10,769 - INFO - Epoch 30/200, Train Loss: 0.3171, Val Loss: 0.1124 
+     pixel_acc_infected: 0.9594, dice_infected: 0.6497,iou_infected: 0.5029, precision_infected: 0.7622, recall_infected: 0.6265, f1_score_infected: 0.6877 
+     pixel_acc_lungs: 0.9730, dice_lungs: 0.9432,iou_lungs: 0.8931, precision_lungs: 0.9526, recall_lungs: 0.9346, f1_score_lungs: 0.9436 
+     precision_classification: 0.7803, recall_classification: 0.7649,f1_score_classification: 0.7359 
+
+2023-11-13 18:50:06,757 - INFO - Epoch 31/200, Train Loss: 0.3054, Val Loss: 0.3525 
+     pixel_acc_infected: 0.9589, dice_infected: 0.6506,iou_infected: 0.5035, precision_infected: 0.7555, recall_infected: 0.6352, f1_score_infected: 0.6901 
+     pixel_acc_lungs: 0.9730, dice_lungs: 0.9431,iou_lungs: 0.8931, precision_lungs: 0.9521, recall_lungs: 0.9351, f1_score_lungs: 0.9435 
+     precision_classification: 0.7803, recall_classification: 0.7638,f1_score_classification: 0.7351 
+
+2023-11-13 18:50:06,759 - INFO - save model at epoch 31, saving model
+2023-11-13 18:51:03,144 - INFO - Epoch 32/200, Train Loss: 0.2930, Val Loss: 0.1570 
+     pixel_acc_infected: 0.9592, dice_infected: 0.6540,iou_infected: 0.5071, precision_infected: 0.7555, recall_infected: 0.6398, f1_score_infected: 0.6928 
+     pixel_acc_lungs: 0.9732, dice_lungs: 0.9436,iou_lungs: 0.8939, precision_lungs: 0.9521, recall_lungs: 0.9360, f1_score_lungs: 0.9440 
+     precision_classification: 0.7821, recall_classification: 0.7659,f1_score_classification: 0.7378 
+
+2023-11-13 18:51:59,742 - INFO - Epoch 33/200, Train Loss: 0.2927, Val Loss: 0.1308 
+     pixel_acc_infected: 0.9596, dice_infected: 0.6581,iou_infected: 0.5116, precision_infected: 0.7570, recall_infected: 0.6441, f1_score_infected: 0.6960 
+     pixel_acc_lungs: 0.9734, dice_lungs: 0.9440,iou_lungs: 0.8946, precision_lungs: 0.9528, recall_lungs: 0.9360, f1_score_lungs: 0.9444 
+     precision_classification: 0.7849, recall_classification: 0.7687,f1_score_classification: 0.7412 
+
+2023-11-13 18:52:55,270 - INFO - Epoch 34/200, Train Loss: 0.2733, Val Loss: 0.2047 
+     pixel_acc_infected: 0.9597, dice_infected: 0.6600,iou_infected: 0.5133, precision_infected: 0.7560, recall_infected: 0.6470, f1_score_infected: 0.6973 
+     pixel_acc_lungs: 0.9736, dice_lungs: 0.9444,iou_lungs: 0.8954, precision_lungs: 0.9531, recall_lungs: 0.9366, f1_score_lungs: 0.9448 
+     precision_classification: 0.7863, recall_classification: 0.7695,f1_score_classification: 0.7425 
+
+2023-11-13 18:53:51,545 - INFO - Epoch 35/200, Train Loss: 0.2615, Val Loss: 0.1121 
+     pixel_acc_infected: 0.9600, dice_infected: 0.6637,iou_infected: 0.5176, precision_infected: 0.7561, recall_infected: 0.6526, f1_score_infected: 0.7005 
+     pixel_acc_lungs: 0.9738, dice_lungs: 0.9449,iou_lungs: 0.8961, precision_lungs: 0.9536, recall_lungs: 0.9370, f1_score_lungs: 0.9452 
+     precision_classification: 0.7897, recall_classification: 0.7722,f1_score_classification: 0.7459 
+
+2023-11-13 18:55:51,168 - INFO - Epoch 36/200, Train Loss: 0.2799, Val Loss: 0.1340 
+     pixel_acc_infected: 0.9604, dice_infected: 0.6673,iou_infected: 0.5215, precision_infected: 0.7573, recall_infected: 0.6565, f1_score_infected: 0.7033 
+     pixel_acc_lungs: 0.9740, dice_lungs: 0.9453,iou_lungs: 0.8970, precision_lungs: 0.9539, recall_lungs: 0.9376, f1_score_lungs: 0.9457 
+     precision_classification: 0.7917, recall_classification: 0.7750,f1_score_classification: 0.7489 
+
+2023-11-13 19:00:04,742 - INFO - Epoch 37/200, Train Loss: 0.1972, Val Loss: 0.1009 
+     pixel_acc_infected: 0.9608, dice_infected: 0.6711,iou_infected: 0.5259, precision_infected: 0.7589, recall_infected: 0.6606, f1_score_infected: 0.7063 
+     pixel_acc_lungs: 0.9742, dice_lungs: 0.9458,iou_lungs: 0.8979, precision_lungs: 0.9542, recall_lungs: 0.9383, f1_score_lungs: 0.9462 
+     precision_classification: 0.7940, recall_classification: 0.7780,f1_score_classification: 0.7521 
+
+2023-11-13 19:10:54,279 - INFO - Epoch 38/200, Train Loss: 0.1703, Val Loss: 0.0948 
+     pixel_acc_infected: 0.9611, dice_infected: 0.6747,iou_infected: 0.5300, precision_infected: 0.7611, recall_infected: 0.6638, f1_score_infected: 0.7091 
+     pixel_acc_lungs: 0.9745, dice_lungs: 0.9463,iou_lungs: 0.8988, precision_lungs: 0.9546, recall_lungs: 0.9389, f1_score_lungs: 0.9467 
+     precision_classification: 0.7970, recall_classification: 0.7815,f1_score_classification: 0.7559 
+
+2023-11-13 19:23:25,186 - INFO - Epoch 39/200, Train Loss: 0.1659, Val Loss: 0.0917 
+     pixel_acc_infected: 0.9615, dice_infected: 0.6783,iou_infected: 0.5342, precision_infected: 0.7630, recall_infected: 0.6674, f1_score_infected: 0.7120 
+     pixel_acc_lungs: 0.9747, dice_lungs: 0.9468,iou_lungs: 0.8997, precision_lungs: 0.9549, recall_lungs: 0.9395, f1_score_lungs: 0.9472 
+     precision_classification: 0.8002, recall_classification: 0.7852,f1_score_classification: 0.7600 
+
+2023-11-14 06:56:09,157 - INFO - Model Information: 
+ Encoder Name: densenet121, Decoder Name: fpn
+2023-11-14 06:56:09,157 - INFO - Training Information: 
+ Learning Rate: 0.001, Num Epochs: 200, Batch Size: 8, Patience: 300, Best Accuracy: 0, Save Every: 10, Alpha: 1
+2023-11-14 06:57:16,954 - INFO - Model Information: 
+ Encoder Name: densenet121, Decoder Name: fpn
+2023-11-14 06:57:16,955 - INFO - Training Information: 
+ Learning Rate: 0.001, Num Epochs: 200, Batch Size: 8, Patience: 300, Best Accuracy: 0, Save Every: 10, Alpha: 1
+2023-11-14 06:58:27,156 - INFO - Epoch 31/200, Train Loss: 0.4262, Val Loss: 0.4278 
+     pixel_acc_infected: 0.9490, dice_infected: 0.4224,iou_infected: 0.2969, precision_infected: 0.8055, recall_infected: 0.3265, f1_score_infected: 0.4646 
+     pixel_acc_lungs: 0.9773, dice_lungs: 0.9522,iou_lungs: 0.9091, precision_lungs: 0.9630, recall_lungs: 0.9420, f1_score_lungs: 0.9524 
+     precision_classification: 0.6681, recall_classification: 0.6460,f1_score_classification: 0.5954 
+
+2023-11-14 06:58:27,158 - INFO - Best model found at epoch 31, saving model
+2023-11-14 06:58:27,682 - INFO - save model at epoch 31, saving model
+2023-11-14 06:59:35,803 - INFO - Epoch 32/200, Train Loss: 0.4249, Val Loss: 0.1478 
+     pixel_acc_infected: 0.9594, dice_infected: 0.5886,iou_infected: 0.4572, precision_infected: 0.7933, recall_infected: 0.5370, f1_score_infected: 0.6405 
+     pixel_acc_lungs: 0.9777, dice_lungs: 0.9530,iou_lungs: 0.9105, precision_lungs: 0.9653, recall_lungs: 0.9413, f1_score_lungs: 0.9532 
+     precision_classification: 0.7466, recall_classification: 0.7279,f1_score_classification: 0.6952 
+
+2023-11-14 07:00:45,989 - INFO - Epoch 33/200, Train Loss: 0.3885, Val Loss: 0.1262 
+     pixel_acc_infected: 0.9627, dice_infected: 0.6474,iou_infected: 0.5157, precision_infected: 0.7768, recall_infected: 0.6270, f1_score_infected: 0.6939 
+     pixel_acc_lungs: 0.9784, dice_lungs: 0.9546,iou_lungs: 0.9135, precision_lungs: 0.9631, recall_lungs: 0.9467, f1_score_lungs: 0.9548 
+     precision_classification: 0.7820, recall_classification: 0.7687,f1_score_classification: 0.7414 
+
+2023-11-14 07:01:58,012 - INFO - Epoch 34/200, Train Loss: 0.3742, Val Loss: 0.1083 
+     pixel_acc_infected: 0.9654, dice_infected: 0.6761,iou_infected: 0.5457, precision_infected: 0.7860, recall_infected: 0.6562, f1_score_infected: 0.7152 
+     pixel_acc_lungs: 0.9790, dice_lungs: 0.9560,iou_lungs: 0.9160, precision_lungs: 0.9616, recall_lungs: 0.9509, f1_score_lungs: 0.9562 
+     precision_classification: 0.8073, recall_classification: 0.7967,f1_score_classification: 0.7729 
+
+2023-11-14 07:03:05,542 - INFO - Epoch 35/200, Train Loss: 0.3982, Val Loss: 0.1341 
+     pixel_acc_infected: 0.9661, dice_infected: 0.6879,iou_infected: 0.5558, precision_infected: 0.7918, recall_infected: 0.6631, f1_score_infected: 0.7217 
+     pixel_acc_lungs: 0.9791, dice_lungs: 0.9561,iou_lungs: 0.9161, precision_lungs: 0.9626, recall_lungs: 0.9500, f1_score_lungs: 0.9563 
+     precision_classification: 0.8106, recall_classification: 0.8032,f1_score_classification: 0.7807 
+
+2023-11-14 07:04:13,740 - INFO - Epoch 36/200, Train Loss: 0.3648, Val Loss: 0.1364 
+     pixel_acc_infected: 0.9654, dice_infected: 0.6953,iou_infected: 0.5623, precision_infected: 0.7667, recall_infected: 0.7015, f1_score_infected: 0.7326 
+     pixel_acc_lungs: 0.9790, dice_lungs: 0.9561,iou_lungs: 0.9161, precision_lungs: 0.9597, recall_lungs: 0.9528, f1_score_lungs: 0.9563 
+     precision_classification: 0.8203, recall_classification: 0.8132,f1_score_classification: 0.7922 
+
+2023-11-14 07:05:21,930 - INFO - Epoch 37/200, Train Loss: 0.3652, Val Loss: 0.1280 
+     pixel_acc_infected: 0.9662, dice_infected: 0.7042,iou_infected: 0.5710, precision_infected: 0.7679, recall_infected: 0.7099, f1_score_infected: 0.7378 
+     pixel_acc_lungs: 0.9790, dice_lungs: 0.9561,iou_lungs: 0.9161, precision_lungs: 0.9599, recall_lungs: 0.9527, f1_score_lungs: 0.9563 
+     precision_classification: 0.8283, recall_classification: 0.8213,f1_score_classification: 0.8016 
+
+2023-11-14 07:06:29,700 - INFO - Epoch 38/200, Train Loss: 0.3566, Val Loss: 0.1767 
+     pixel_acc_infected: 0.9668, dice_infected: 0.7107,iou_infected: 0.5775, precision_infected: 0.7703, recall_infected: 0.7145, f1_score_infected: 0.7413 
+     pixel_acc_lungs: 0.9791, dice_lungs: 0.9563,iou_lungs: 0.9165, precision_lungs: 0.9595, recall_lungs: 0.9535, f1_score_lungs: 0.9565 
+     precision_classification: 0.8220, recall_classification: 0.8183,f1_score_classification: 0.7966 
+
+2023-11-14 07:07:37,670 - INFO - Epoch 39/200, Train Loss: 0.3448, Val Loss: 0.1270 
+     pixel_acc_infected: 0.9671, dice_infected: 0.7175,iou_infected: 0.5841, precision_infected: 0.7677, recall_infected: 0.7262, f1_score_infected: 0.7464 
+     pixel_acc_lungs: 0.9792, dice_lungs: 0.9565,iou_lungs: 0.9169, precision_lungs: 0.9587, recall_lungs: 0.9547, f1_score_lungs: 0.9567 
+     precision_classification: 0.8271, recall_classification: 0.8235,f1_score_classification: 0.8025 
+
+2023-11-14 07:08:45,845 - INFO - Epoch 40/200, Train Loss: 0.3539, Val Loss: 0.1271 
+     pixel_acc_infected: 0.9675, dice_infected: 0.7207,iou_infected: 0.5872, precision_infected: 0.7736, recall_infected: 0.7243, f1_score_infected: 0.7481 
+     pixel_acc_lungs: 0.9793, dice_lungs: 0.9568,iou_lungs: 0.9174, precision_lungs: 0.9588, recall_lungs: 0.9551, f1_score_lungs: 0.9570 
+     precision_classification: 0.8279, recall_classification: 0.8256,f1_score_classification: 0.8045 
+
+2023-11-14 07:09:53,855 - INFO - Epoch 41/200, Train Loss: 0.3629, Val Loss: 0.1137 
+     pixel_acc_infected: 0.9680, dice_infected: 0.7259,iou_infected: 0.5930, precision_infected: 0.7736, recall_infected: 0.7318, f1_score_infected: 0.7521 
+     pixel_acc_lungs: 0.9794, dice_lungs: 0.9570,iou_lungs: 0.9177, precision_lungs: 0.9579, recall_lungs: 0.9564, f1_score_lungs: 0.9571 
+     precision_classification: 0.8322, recall_classification: 0.8298,f1_score_classification: 0.8093 
+
+2023-11-14 07:09:53,856 - INFO - save model at epoch 41, saving model
+2023-11-14 07:11:03,223 - INFO - Epoch 42/200, Train Loss: 0.3549, Val Loss: 0.1669 
+     pixel_acc_infected: 0.9682, dice_infected: 0.7269,iou_infected: 0.5939, precision_infected: 0.7771, recall_infected: 0.7290, f1_score_infected: 0.7523 
+     pixel_acc_lungs: 0.9794, dice_lungs: 0.9570,iou_lungs: 0.9177, precision_lungs: 0.9579, recall_lungs: 0.9563, f1_score_lungs: 0.9571 
+     precision_classification: 0.8313, recall_classification: 0.8302,f1_score_classification: 0.8089 
+
+2023-11-14 07:12:11,617 - INFO - Epoch 43/200, Train Loss: 0.3170, Val Loss: 0.1207 
+     pixel_acc_infected: 0.9682, dice_infected: 0.7237,iou_infected: 0.5899, precision_infected: 0.7847, recall_infected: 0.7178, f1_score_infected: 0.7497 
+     pixel_acc_lungs: 0.9795, dice_lungs: 0.9573,iou_lungs: 0.9183, precision_lungs: 0.9581, recall_lungs: 0.9568, f1_score_lungs: 0.9574 
+     precision_classification: 0.8349, recall_classification: 0.8335,f1_score_classification: 0.8129 
+
+2023-11-14 07:14:07,579 - INFO - Epoch 44/200, Train Loss: 0.3133, Val Loss: 0.1299 
+     pixel_acc_infected: 0.9685, dice_infected: 0.7277,iou_infected: 0.5944, precision_infected: 0.7837, recall_infected: 0.7246, f1_score_infected: 0.7530 
+     pixel_acc_lungs: 0.9796, dice_lungs: 0.9574,iou_lungs: 0.9184, precision_lungs: 0.9591, recall_lungs: 0.9560, f1_score_lungs: 0.9575 
+     precision_classification: 0.8377, recall_classification: 0.8356,f1_score_classification: 0.8156 
+
+2023-11-14 07:16:10,513 - INFO - Epoch 45/200, Train Loss: 0.3076, Val Loss: 0.1573 
+     pixel_acc_infected: 0.9677, dice_infected: 0.7269,iou_infected: 0.5928, precision_infected: 0.7732, recall_infected: 0.7341, f1_score_infected: 0.7531 
+     pixel_acc_lungs: 0.9796, dice_lungs: 0.9575,iou_lungs: 0.9186, precision_lungs: 0.9597, recall_lungs: 0.9556, f1_score_lungs: 0.9576 
+     precision_classification: 0.8365, recall_classification: 0.8344,f1_score_classification: 0.8144 
+
+2023-11-14 07:18:14,035 - INFO - Epoch 46/200, Train Loss: 0.2426, Val Loss: 0.0891 
+     pixel_acc_infected: 0.9682, dice_infected: 0.7314,iou_infected: 0.5980, precision_infected: 0.7757, recall_infected: 0.7383, f1_score_infected: 0.7565 
+     pixel_acc_lungs: 0.9798, dice_lungs: 0.9579,iou_lungs: 0.9194, precision_lungs: 0.9601, recall_lungs: 0.9561, f1_score_lungs: 0.9581 
+     precision_classification: 0.8410, recall_classification: 0.8389,f1_score_classification: 0.8195 
+
+2023-11-14 07:18:14,036 - INFO - Best model found at epoch 46, saving model
+2023-11-14 07:20:47,799 - INFO - Epoch 47/200, Train Loss: 0.2117, Val Loss: 0.0911 
+     pixel_acc_infected: 0.9686, dice_infected: 0.7352,iou_infected: 0.6023, precision_infected: 0.7779, recall_infected: 0.7419, f1_score_infected: 0.7595 
+     pixel_acc_lungs: 0.9800, dice_lungs: 0.9583,iou_lungs: 0.9202, precision_lungs: 0.9604, recall_lungs: 0.9566, f1_score_lungs: 0.9585 
+     precision_classification: 0.8449, recall_classification: 0.8429,f1_score_classification: 0.8239 
+
+2023-11-14 07:22:50,387 - INFO - Epoch 48/200, Train Loss: 0.1986, Val Loss: 0.0891 
+     pixel_acc_infected: 0.9690, dice_infected: 0.7391,iou_infected: 0.6068, precision_infected: 0.7799, recall_infected: 0.7456, f1_score_infected: 0.7624 
+     pixel_acc_lungs: 0.9802, dice_lungs: 0.9587,iou_lungs: 0.9209, precision_lungs: 0.9608, recall_lungs: 0.9570, f1_score_lungs: 0.9589 
+     precision_classification: 0.8485, recall_classification: 0.8464,f1_score_classification: 0.8280 
+
+2023-11-14 07:24:53,198 - INFO - Epoch 49/200, Train Loss: 0.1826, Val Loss: 0.0945 
+     pixel_acc_infected: 0.9693, dice_infected: 0.7422,iou_infected: 0.6105, precision_infected: 0.7818, recall_infected: 0.7484, f1_score_infected: 0.7648 
+     pixel_acc_lungs: 0.9804, dice_lungs: 0.9591,iou_lungs: 0.9216, precision_lungs: 0.9613, recall_lungs: 0.9572, f1_score_lungs: 0.9592 
+     precision_classification: 0.8514, recall_classification: 0.8492,f1_score_classification: 0.8313 
+
+2023-11-14 07:26:56,635 - INFO - Epoch 50/200, Train Loss: 0.1643, Val Loss: 0.0971 
+     pixel_acc_infected: 0.9696, dice_infected: 0.7454,iou_infected: 0.6143, precision_infected: 0.7821, recall_infected: 0.7531, f1_score_infected: 0.7673 
+     pixel_acc_lungs: 0.9805, dice_lungs: 0.9594,iou_lungs: 0.9221, precision_lungs: 0.9614, recall_lungs: 0.9577, f1_score_lungs: 0.9595 
+     precision_classification: 0.8536, recall_classification: 0.8520,f1_score_classification: 0.8342 
+
+2023-11-14 07:28:58,970 - INFO - Epoch 51/200, Train Loss: 0.1610, Val Loss: 0.0965 
+     pixel_acc_infected: 0.9699, dice_infected: 0.7477,iou_infected: 0.6170, precision_infected: 0.7829, recall_infected: 0.7555, f1_score_infected: 0.7690 
+     pixel_acc_lungs: 0.9807, dice_lungs: 0.9597,iou_lungs: 0.9227, precision_lungs: 0.9618, recall_lungs: 0.9578, f1_score_lungs: 0.9598 
+     precision_classification: 0.8571, recall_classification: 0.8555,f1_score_classification: 0.8381 
+
+2023-11-14 07:28:58,971 - INFO - save model at epoch 51, saving model
+2023-11-14 07:31:01,161 - INFO - Epoch 52/200, Train Loss: 0.1461, Val Loss: 0.1053 
+     pixel_acc_infected: 0.9702, dice_infected: 0.7497,iou_infected: 0.6193, precision_infected: 0.7856, recall_infected: 0.7560, f1_score_infected: 0.7705 
+     pixel_acc_lungs: 0.9808, dice_lungs: 0.9599,iou_lungs: 0.9232, precision_lungs: 0.9621, recall_lungs: 0.9580, f1_score_lungs: 0.9601 
+     precision_classification: 0.8592, recall_classification: 0.8580,f1_score_classification: 0.8408 
+
+2023-11-14 07:33:03,995 - INFO - Epoch 53/200, Train Loss: 0.1464, Val Loss: 0.1072 
+     pixel_acc_infected: 0.9704, dice_infected: 0.7519,iou_infected: 0.6218, precision_infected: 0.7869, recall_infected: 0.7579, f1_score_infected: 0.7721 
+     pixel_acc_lungs: 0.9809, dice_lungs: 0.9602,iou_lungs: 0.9236, precision_lungs: 0.9623, recall_lungs: 0.9583, f1_score_lungs: 0.9603 
+     precision_classification: 0.8611, recall_classification: 0.8596,f1_score_classification: 0.8427 
+
+2023-11-14 07:35:06,754 - INFO - Epoch 54/200, Train Loss: 0.1510, Val Loss: 0.1000 
+     pixel_acc_infected: 0.9706, dice_infected: 0.7536,iou_infected: 0.6240, precision_infected: 0.7874, recall_infected: 0.7604, f1_score_infected: 0.7736 
+     pixel_acc_lungs: 0.9810, dice_lungs: 0.9604,iou_lungs: 0.9241, precision_lungs: 0.9626, recall_lungs: 0.9585, f1_score_lungs: 0.9606 
+     precision_classification: 0.8628, recall_classification: 0.8612,f1_score_classification: 0.8448 
+
+2023-11-14 07:37:10,160 - INFO - Epoch 55/200, Train Loss: 0.1334, Val Loss: 0.1023 
+     pixel_acc_infected: 0.9708, dice_infected: 0.7547,iou_infected: 0.6254, precision_infected: 0.7887, recall_infected: 0.7610, f1_score_infected: 0.7746 
+     pixel_acc_lungs: 0.9812, dice_lungs: 0.9606,iou_lungs: 0.9245, precision_lungs: 0.9629, recall_lungs: 0.9586, f1_score_lungs: 0.9608 
+     precision_classification: 0.8642, recall_classification: 0.8624,f1_score_classification: 0.8462 
+
+2023-11-14 07:39:12,387 - INFO - Epoch 56/200, Train Loss: 0.1459, Val Loss: 0.1020 
+     pixel_acc_infected: 0.9710, dice_infected: 0.7570,iou_infected: 0.6281, precision_infected: 0.7893, recall_infected: 0.7639, f1_score_infected: 0.7764 
+     pixel_acc_lungs: 0.9812, dice_lungs: 0.9608,iou_lungs: 0.9249, precision_lungs: 0.9631, recall_lungs: 0.9589, f1_score_lungs: 0.9610 
+     precision_classification: 0.8656, recall_classification: 0.8640,f1_score_classification: 0.8479 
+
+2023-11-14 07:41:43,905 - INFO - Epoch 57/200, Train Loss: 0.1247, Val Loss: 0.1181 
+     pixel_acc_infected: 0.9712, dice_infected: 0.7585,iou_infected: 0.6298, precision_infected: 0.7901, recall_infected: 0.7652, f1_score_infected: 0.7775 
+     pixel_acc_lungs: 0.9813, dice_lungs: 0.9610,iou_lungs: 0.9252, precision_lungs: 0.9633, recall_lungs: 0.9590, f1_score_lungs: 0.9612 
+     precision_classification: 0.8671, recall_classification: 0.8658,f1_score_classification: 0.8497 
+
+2023-11-14 07:43:40,472 - INFO - Epoch 58/200, Train Loss: 0.1351, Val Loss: 0.1134 
+     pixel_acc_infected: 0.9714, dice_infected: 0.7601,iou_infected: 0.6317, precision_infected: 0.7913, recall_infected: 0.7667, f1_score_infected: 0.7788 
+     pixel_acc_lungs: 0.9814, dice_lungs: 0.9612,iou_lungs: 0.9256, precision_lungs: 0.9635, recall_lungs: 0.9592, f1_score_lungs: 0.9614 
+     precision_classification: 0.8681, recall_classification: 0.8668,f1_score_classification: 0.8509 
+
+2023-11-14 07:44:46,340 - INFO - Epoch 59/200, Train Loss: 0.1261, Val Loss: 0.1108 
+     pixel_acc_infected: 0.9715, dice_infected: 0.7618,iou_infected: 0.6337, precision_infected: 0.7929, recall_infected: 0.7678, f1_score_infected: 0.7802 
+     pixel_acc_lungs: 0.9815, dice_lungs: 0.9614,iou_lungs: 0.9259, precision_lungs: 0.9637, recall_lungs: 0.9594, f1_score_lungs: 0.9615 
+     precision_classification: 0.8694, recall_classification: 0.8681,f1_score_classification: 0.8523 
+
+2023-11-14 07:45:51,992 - INFO - Epoch 60/200, Train Loss: 0.1205, Val Loss: 0.1104 
+     pixel_acc_infected: 0.9717, dice_infected: 0.7633,iou_infected: 0.6355, precision_infected: 0.7938, recall_infected: 0.7693, f1_score_infected: 0.7814 
+     pixel_acc_lungs: 0.9816, dice_lungs: 0.9616,iou_lungs: 0.9262, precision_lungs: 0.9638, recall_lungs: 0.9596, f1_score_lungs: 0.9617 
+     precision_classification: 0.8703, recall_classification: 0.8688,f1_score_classification: 0.8534 
+
+2023-11-14 07:47:48,193 - INFO - Epoch 61/200, Train Loss: 0.1216, Val Loss: 0.1113 
+     pixel_acc_infected: 0.9718, dice_infected: 0.7645,iou_infected: 0.6370, precision_infected: 0.7940, recall_infected: 0.7710, f1_score_infected: 0.7823 
+     pixel_acc_lungs: 0.9817, dice_lungs: 0.9617,iou_lungs: 0.9265, precision_lungs: 0.9640, recall_lungs: 0.9597, f1_score_lungs: 0.9619 
+     precision_classification: 0.8711, recall_classification: 0.8697,f1_score_classification: 0.8544 
+
+2023-11-14 07:47:48,194 - INFO - save model at epoch 61, saving model
+2023-11-14 07:49:50,965 - INFO - Epoch 62/200, Train Loss: 0.1318, Val Loss: 0.1117 
+     pixel_acc_infected: 0.9720, dice_infected: 0.7659,iou_infected: 0.6387, precision_infected: 0.7943, recall_infected: 0.7727, f1_score_infected: 0.7834 
+     pixel_acc_lungs: 0.9817, dice_lungs: 0.9619,iou_lungs: 0.9268, precision_lungs: 0.9642, recall_lungs: 0.9599, f1_score_lungs: 0.9620 
+     precision_classification: 0.8724, recall_classification: 0.8711,f1_score_classification: 0.8559 
+
+2023-11-14 07:51:50,035 - INFO - Epoch 63/200, Train Loss: 0.1180, Val Loss: 0.1132 
+     pixel_acc_infected: 0.9721, dice_infected: 0.7671,iou_infected: 0.6402, precision_infected: 0.7950, recall_infected: 0.7741, f1_score_infected: 0.7844 
+     pixel_acc_lungs: 0.9818, dice_lungs: 0.9620,iou_lungs: 0.9271, precision_lungs: 0.9644, recall_lungs: 0.9600, f1_score_lungs: 0.9622 
+     precision_classification: 0.8726, recall_classification: 0.8715,f1_score_classification: 0.8563 
+
+2023-11-14 07:52:56,218 - INFO - Epoch 64/200, Train Loss: 0.1325, Val Loss: 0.1144 
+     pixel_acc_infected: 0.9722, dice_infected: 0.7684,iou_infected: 0.6418, precision_infected: 0.7957, recall_infected: 0.7756, f1_score_infected: 0.7855 
+     pixel_acc_lungs: 0.9819, dice_lungs: 0.9622,iou_lungs: 0.9273, precision_lungs: 0.9645, recall_lungs: 0.9601, f1_score_lungs: 0.9623 
+     precision_classification: 0.8735, recall_classification: 0.8723,f1_score_classification: 0.8573 
+
+2023-11-14 07:54:03,175 - INFO - Epoch 65/200, Train Loss: 0.1161, Val Loss: 0.1137 
+     pixel_acc_infected: 0.9723, dice_infected: 0.7695,iou_infected: 0.6430, precision_infected: 0.7964, recall_infected: 0.7764, f1_score_infected: 0.7863 
+     pixel_acc_lungs: 0.9819, dice_lungs: 0.9623,iou_lungs: 0.9275, precision_lungs: 0.9646, recall_lungs: 0.9602, f1_score_lungs: 0.9624 
+     precision_classification: 0.8746, recall_classification: 0.8733,f1_score_classification: 0.8585 
+
+2023-11-14 07:55:12,351 - INFO - Epoch 66/200, Train Loss: 0.1204, Val Loss: 0.1128 
+     pixel_acc_infected: 0.9724, dice_infected: 0.7703,iou_infected: 0.6439, precision_infected: 0.7969, recall_infected: 0.7770, f1_score_infected: 0.7868 
+     pixel_acc_lungs: 0.9820, dice_lungs: 0.9624,iou_lungs: 0.9278, precision_lungs: 0.9647, recall_lungs: 0.9604, f1_score_lungs: 0.9625 
+     precision_classification: 0.8751, recall_classification: 0.8740,f1_score_classification: 0.8592 
+
+2023-11-14 07:56:18,756 - INFO - Epoch 67/200, Train Loss: 0.1128, Val Loss: 0.1112 
+     pixel_acc_infected: 0.9725, dice_infected: 0.7712,iou_infected: 0.6450, precision_infected: 0.7975, recall_infected: 0.7778, f1_score_infected: 0.7875 
+     pixel_acc_lungs: 0.9821, dice_lungs: 0.9625,iou_lungs: 0.9280, precision_lungs: 0.9648, recall_lungs: 0.9605, f1_score_lungs: 0.9626 
+     precision_classification: 0.8756, recall_classification: 0.8746,f1_score_classification: 0.8599 
+
+2023-11-14 07:57:28,080 - INFO - Epoch 68/200, Train Loss: 0.1196, Val Loss: 0.1135 
+     pixel_acc_infected: 0.9726, dice_infected: 0.7721,iou_infected: 0.6462, precision_infected: 0.7978, recall_infected: 0.7788, f1_score_infected: 0.7882 
+     pixel_acc_lungs: 0.9821, dice_lungs: 0.9626,iou_lungs: 0.9282, precision_lungs: 0.9649, recall_lungs: 0.9606, f1_score_lungs: 0.9627 
+     precision_classification: 0.8763, recall_classification: 0.8753,f1_score_classification: 0.8607 
+
+2023-11-14 07:58:38,153 - INFO - Epoch 69/200, Train Loss: 0.1073, Val Loss: 0.1131 
+     pixel_acc_infected: 0.9727, dice_infected: 0.7730,iou_infected: 0.6472, precision_infected: 0.7980, recall_infected: 0.7800, f1_score_infected: 0.7889 
+     pixel_acc_lungs: 0.9822, dice_lungs: 0.9627,iou_lungs: 0.9283, precision_lungs: 0.9650, recall_lungs: 0.9607, f1_score_lungs: 0.9628 
+     precision_classification: 0.8771, recall_classification: 0.8762,f1_score_classification: 0.8616 
+
+2023-11-14 07:59:50,590 - INFO - Epoch 70/200, Train Loss: 0.1154, Val Loss: 0.1127 
+     pixel_acc_infected: 0.9728, dice_infected: 0.7738,iou_infected: 0.6482, precision_infected: 0.7985, recall_infected: 0.7806, f1_score_infected: 0.7895 
+     pixel_acc_lungs: 0.9822, dice_lungs: 0.9628,iou_lungs: 0.9285, precision_lungs: 0.9651, recall_lungs: 0.9608, f1_score_lungs: 0.9629 
+     precision_classification: 0.8777, recall_classification: 0.8770,f1_score_classification: 0.8624 
+
+2023-11-14 08:01:00,663 - INFO - Epoch 71/200, Train Loss: 0.1157, Val Loss: 0.1164 
+     pixel_acc_infected: 0.9729, dice_infected: 0.7742,iou_infected: 0.6487, precision_infected: 0.7987, recall_infected: 0.7809, f1_score_infected: 0.7897 
+     pixel_acc_lungs: 0.9822, dice_lungs: 0.9629,iou_lungs: 0.9287, precision_lungs: 0.9652, recall_lungs: 0.9609, f1_score_lungs: 0.9630 
+     precision_classification: 0.8783, recall_classification: 0.8776,f1_score_classification: 0.8631 
+
+2023-11-14 08:01:00,664 - INFO - save model at epoch 71, saving model
+2023-11-14 08:02:12,809 - INFO - Epoch 72/200, Train Loss: 0.1196, Val Loss: 0.1099 
+     pixel_acc_infected: 0.9730, dice_infected: 0.7750,iou_infected: 0.6497, precision_infected: 0.7992, recall_infected: 0.7817, f1_score_infected: 0.7904 
+     pixel_acc_lungs: 0.9823, dice_lungs: 0.9630,iou_lungs: 0.9289, precision_lungs: 0.9653, recall_lungs: 0.9610, f1_score_lungs: 0.9631 
+     precision_classification: 0.8790, recall_classification: 0.8783,f1_score_classification: 0.8639 
+
+2023-11-14 08:03:23,995 - INFO - Epoch 73/200, Train Loss: 0.1072, Val Loss: 0.1116 
+     pixel_acc_infected: 0.9730, dice_infected: 0.7755,iou_infected: 0.6503, precision_infected: 0.7996, recall_infected: 0.7821, f1_score_infected: 0.7907 
+     pixel_acc_lungs: 0.9823, dice_lungs: 0.9631,iou_lungs: 0.9290, precision_lungs: 0.9654, recall_lungs: 0.9611, f1_score_lungs: 0.9632 
+     precision_classification: 0.8795, recall_classification: 0.8789,f1_score_classification: 0.8645 
+
+2023-11-14 08:04:33,142 - INFO - Epoch 74/200, Train Loss: 0.1197, Val Loss: 0.1146 
+     pixel_acc_infected: 0.9731, dice_infected: 0.7761,iou_infected: 0.6511, precision_infected: 0.7997, recall_infected: 0.7829, f1_score_infected: 0.7912 
+     pixel_acc_lungs: 0.9824, dice_lungs: 0.9632,iou_lungs: 0.9292, precision_lungs: 0.9655, recall_lungs: 0.9611, f1_score_lungs: 0.9633 
+     precision_classification: 0.8801, recall_classification: 0.8795,f1_score_classification: 0.8652 
+
+2023-11-14 08:05:42,231 - INFO - Epoch 75/200, Train Loss: 0.1320, Val Loss: 0.1157 
+     pixel_acc_infected: 0.9732, dice_infected: 0.7767,iou_infected: 0.6518, precision_infected: 0.8000, recall_infected: 0.7835, f1_score_infected: 0.7917 
+     pixel_acc_lungs: 0.9824, dice_lungs: 0.9633,iou_lungs: 0.9293, precision_lungs: 0.9655, recall_lungs: 0.9612, f1_score_lungs: 0.9634 
+     precision_classification: 0.8806, recall_classification: 0.8800,f1_score_classification: 0.8658 
+
+2023-11-14 08:06:52,740 - INFO - Epoch 76/200, Train Loss: 0.1149, Val Loss: 0.1128 
+     pixel_acc_infected: 0.9732, dice_infected: 0.7773,iou_infected: 0.6524, precision_infected: 0.8001, recall_infected: 0.7843, f1_score_infected: 0.7922 
+     pixel_acc_lungs: 0.9824, dice_lungs: 0.9633,iou_lungs: 0.9295, precision_lungs: 0.9656, recall_lungs: 0.9613, f1_score_lungs: 0.9634 
+     precision_classification: 0.8808, recall_classification: 0.8804,f1_score_classification: 0.8662 
+
+2023-11-14 08:08:03,090 - INFO - Epoch 77/200, Train Loss: 0.1131, Val Loss: 0.1111 
+     pixel_acc_infected: 0.9733, dice_infected: 0.7779,iou_infected: 0.6532, precision_infected: 0.8004, recall_infected: 0.7849, f1_score_infected: 0.7926 
+     pixel_acc_lungs: 0.9825, dice_lungs: 0.9634,iou_lungs: 0.9296, precision_lungs: 0.9657, recall_lungs: 0.9613, f1_score_lungs: 0.9635 
+     precision_classification: 0.8816, recall_classification: 0.8810,f1_score_classification: 0.8669 
+
+2023-11-14 08:09:11,886 - INFO - Epoch 78/200, Train Loss: 0.1149, Val Loss: 0.1122 
+     pixel_acc_infected: 0.9734, dice_infected: 0.7786,iou_infected: 0.6540, precision_infected: 0.8008, recall_infected: 0.7858, f1_score_infected: 0.7932 
+     pixel_acc_lungs: 0.9825, dice_lungs: 0.9635,iou_lungs: 0.9297, precision_lungs: 0.9658, recall_lungs: 0.9614, f1_score_lungs: 0.9636 
+     precision_classification: 0.8819, recall_classification: 0.8814,f1_score_classification: 0.8673 
+
+2023-11-14 08:10:19,518 - INFO - Epoch 79/200, Train Loss: 0.1173, Val Loss: 0.1121 
+     pixel_acc_infected: 0.9734, dice_infected: 0.7793,iou_infected: 0.6548, precision_infected: 0.8011, recall_infected: 0.7865, f1_score_infected: 0.7937 
+     pixel_acc_lungs: 0.9825, dice_lungs: 0.9635,iou_lungs: 0.9298, precision_lungs: 0.9658, recall_lungs: 0.9615, f1_score_lungs: 0.9636 
+     precision_classification: 0.8824, recall_classification: 0.8820,f1_score_classification: 0.8680 
+
+2023-11-14 08:11:51,478 - INFO - Epoch 80/200, Train Loss: 0.1167, Val Loss: 0.1173 
+     pixel_acc_infected: 0.9735, dice_infected: 0.7798,iou_infected: 0.6555, precision_infected: 0.8016, recall_infected: 0.7869, f1_score_infected: 0.7942 
+     pixel_acc_lungs: 0.9826, dice_lungs: 0.9636,iou_lungs: 0.9299, precision_lungs: 0.9659, recall_lungs: 0.9615, f1_score_lungs: 0.9637 
+     precision_classification: 0.8827, recall_classification: 0.8824,f1_score_classification: 0.8683 
+
+2023-11-14 08:12:58,860 - INFO - Epoch 81/200, Train Loss: 0.1127, Val Loss: 0.1116 
+     pixel_acc_infected: 0.9735, dice_infected: 0.7804,iou_infected: 0.6562, precision_infected: 0.8019, recall_infected: 0.7875, f1_score_infected: 0.7946 
+     pixel_acc_lungs: 0.9826, dice_lungs: 0.9637,iou_lungs: 0.9301, precision_lungs: 0.9660, recall_lungs: 0.9616, f1_score_lungs: 0.9638 
+     precision_classification: 0.8832, recall_classification: 0.8830,f1_score_classification: 0.8690 
+
+2023-11-14 08:12:58,862 - INFO - save model at epoch 81, saving model
+2023-11-14 08:14:08,197 - INFO - Epoch 82/200, Train Loss: 0.1240, Val Loss: 0.1102 
+     pixel_acc_infected: 0.9736, dice_infected: 0.7810,iou_infected: 0.6568, precision_infected: 0.8026, recall_infected: 0.7877, f1_score_infected: 0.7951 
+     pixel_acc_lungs: 0.9826, dice_lungs: 0.9637,iou_lungs: 0.9302, precision_lungs: 0.9661, recall_lungs: 0.9616, f1_score_lungs: 0.9638 
+     precision_classification: 0.8836, recall_classification: 0.8833,f1_score_classification: 0.8693 
+
+2023-11-14 08:15:16,139 - INFO - Epoch 83/200, Train Loss: 0.1137, Val Loss: 0.1131 
+     pixel_acc_infected: 0.9736, dice_infected: 0.7814,iou_infected: 0.6573, precision_infected: 0.8027, recall_infected: 0.7883, f1_score_infected: 0.7954 
+     pixel_acc_lungs: 0.9826, dice_lungs: 0.9638,iou_lungs: 0.9303, precision_lungs: 0.9661, recall_lungs: 0.9617, f1_score_lungs: 0.9639 
+     precision_classification: 0.8840, recall_classification: 0.8839,f1_score_classification: 0.8699 
+
+2023-11-14 08:16:22,469 - INFO - Epoch 84/200, Train Loss: 0.1248, Val Loss: 0.1148 
+     pixel_acc_infected: 0.9737, dice_infected: 0.7820,iou_infected: 0.6580, precision_infected: 0.8028, recall_infected: 0.7890, f1_score_infected: 0.7958 
+     pixel_acc_lungs: 0.9827, dice_lungs: 0.9638,iou_lungs: 0.9304, precision_lungs: 0.9662, recall_lungs: 0.9617, f1_score_lungs: 0.9639 
+     precision_classification: 0.8844, recall_classification: 0.8841,f1_score_classification: 0.8702 
+
+2023-11-14 08:17:28,809 - INFO - Epoch 85/200, Train Loss: 0.1265, Val Loss: 0.1090 
+     pixel_acc_infected: 0.9737, dice_infected: 0.7823,iou_infected: 0.6584, precision_infected: 0.8033, recall_infected: 0.7890, f1_score_infected: 0.7961 
+     pixel_acc_lungs: 0.9827, dice_lungs: 0.9639,iou_lungs: 0.9305, precision_lungs: 0.9662, recall_lungs: 0.9618, f1_score_lungs: 0.9640 
+     precision_classification: 0.8847, recall_classification: 0.8845,f1_score_classification: 0.8707 
+
+2023-11-14 08:18:35,022 - INFO - Epoch 86/200, Train Loss: 0.1079, Val Loss: 0.1137 
+     pixel_acc_infected: 0.9738, dice_infected: 0.7827,iou_infected: 0.6588, precision_infected: 0.8036, recall_infected: 0.7892, f1_score_infected: 0.7963 
+     pixel_acc_lungs: 0.9827, dice_lungs: 0.9639,iou_lungs: 0.9306, precision_lungs: 0.9663, recall_lungs: 0.9618, f1_score_lungs: 0.9640 
+     precision_classification: 0.8852, recall_classification: 0.8850,f1_score_classification: 0.8712 
+
+2023-11-14 08:19:41,424 - INFO - Epoch 87/200, Train Loss: 0.1143, Val Loss: 0.1135 
+     pixel_acc_infected: 0.9738, dice_infected: 0.7832,iou_infected: 0.6594, precision_infected: 0.8039, recall_infected: 0.7897, f1_score_infected: 0.7967 
+     pixel_acc_lungs: 0.9827, dice_lungs: 0.9640,iou_lungs: 0.9306, precision_lungs: 0.9663, recall_lungs: 0.9618, f1_score_lungs: 0.9641 
+     precision_classification: 0.8856, recall_classification: 0.8854,f1_score_classification: 0.8716 
+
+2023-11-14 08:20:48,162 - INFO - Epoch 88/200, Train Loss: 0.1187, Val Loss: 0.1113 
+     pixel_acc_infected: 0.9738, dice_infected: 0.7836,iou_infected: 0.6599, precision_infected: 0.8041, recall_infected: 0.7901, f1_score_infected: 0.7970 
+     pixel_acc_lungs: 0.9828, dice_lungs: 0.9640,iou_lungs: 0.9307, precision_lungs: 0.9664, recall_lungs: 0.9619, f1_score_lungs: 0.9641 
+     precision_classification: 0.8858, recall_classification: 0.8856,f1_score_classification: 0.8719 
+
+2023-11-14 08:21:54,443 - INFO - Epoch 89/200, Train Loss: 0.1252, Val Loss: 0.1132 
+     pixel_acc_infected: 0.9739, dice_infected: 0.7838,iou_infected: 0.6601, precision_infected: 0.8041, recall_infected: 0.7903, f1_score_infected: 0.7971 
+     pixel_acc_lungs: 0.9828, dice_lungs: 0.9641,iou_lungs: 0.9308, precision_lungs: 0.9664, recall_lungs: 0.9619, f1_score_lungs: 0.9642 
+     precision_classification: 0.8861, recall_classification: 0.8860,f1_score_classification: 0.8722 
+
+2023-11-14 08:23:04,376 - INFO - Epoch 90/200, Train Loss: 0.1189, Val Loss: 0.1159 
+     pixel_acc_infected: 0.9739, dice_infected: 0.7841,iou_infected: 0.6604, precision_infected: 0.8045, recall_infected: 0.7904, f1_score_infected: 0.7974 
+     pixel_acc_lungs: 0.9828, dice_lungs: 0.9641,iou_lungs: 0.9309, precision_lungs: 0.9665, recall_lungs: 0.9620, f1_score_lungs: 0.9642 
+     precision_classification: 0.8864, recall_classification: 0.8863,f1_score_classification: 0.8725 
+
+2023-11-14 08:24:10,804 - INFO - Epoch 91/200, Train Loss: 0.1219, Val Loss: 0.1137 
+     pixel_acc_infected: 0.9740, dice_infected: 0.7843,iou_infected: 0.6607, precision_infected: 0.8047, recall_infected: 0.7905, f1_score_infected: 0.7975 
+     pixel_acc_lungs: 0.9828, dice_lungs: 0.9641,iou_lungs: 0.9310, precision_lungs: 0.9665, recall_lungs: 0.9620, f1_score_lungs: 0.9643 
+     precision_classification: 0.8869, recall_classification: 0.8867,f1_score_classification: 0.8730 
+
+2023-11-14 08:24:10,806 - INFO - save model at epoch 91, saving model
+2023-11-14 08:25:17,919 - INFO - Epoch 92/200, Train Loss: 0.1157, Val Loss: 0.1163 
+     pixel_acc_infected: 0.9740, dice_infected: 0.7848,iou_infected: 0.6613, precision_infected: 0.8049, recall_infected: 0.7910, f1_score_infected: 0.7979 
+     pixel_acc_lungs: 0.9828, dice_lungs: 0.9642,iou_lungs: 0.9310, precision_lungs: 0.9666, recall_lungs: 0.9620, f1_score_lungs: 0.9643 
+     precision_classification: 0.8873, recall_classification: 0.8871,f1_score_classification: 0.8735 
+
+2023-11-14 08:26:24,912 - INFO - Epoch 93/200, Train Loss: 0.1206, Val Loss: 0.1125 
+     pixel_acc_infected: 0.9740, dice_infected: 0.7851,iou_infected: 0.6616, precision_infected: 0.8051, recall_infected: 0.7913, f1_score_infected: 0.7981 
+     pixel_acc_lungs: 0.9829, dice_lungs: 0.9642,iou_lungs: 0.9311, precision_lungs: 0.9666, recall_lungs: 0.9621, f1_score_lungs: 0.9643 
+     precision_classification: 0.8874, recall_classification: 0.8871,f1_score_classification: 0.8736 
+
+2023-11-14 08:27:32,192 - INFO - Epoch 94/200, Train Loss: 0.1206, Val Loss: 0.1133 
+     pixel_acc_infected: 0.9741, dice_infected: 0.7852,iou_infected: 0.6618, precision_infected: 0.8050, recall_infected: 0.7917, f1_score_infected: 0.7983 
+     pixel_acc_lungs: 0.9829, dice_lungs: 0.9643,iou_lungs: 0.9312, precision_lungs: 0.9667, recall_lungs: 0.9621, f1_score_lungs: 0.9644 
+     precision_classification: 0.8875, recall_classification: 0.8872,f1_score_classification: 0.8737 
+
+2023-11-14 08:28:38,847 - INFO - Epoch 95/200, Train Loss: 0.1079, Val Loss: 0.1124 
+     pixel_acc_infected: 0.9741, dice_infected: 0.7855,iou_infected: 0.6622, precision_infected: 0.8052, recall_infected: 0.7921, f1_score_infected: 0.7986 
+     pixel_acc_lungs: 0.9829, dice_lungs: 0.9643,iou_lungs: 0.9313, precision_lungs: 0.9667, recall_lungs: 0.9621, f1_score_lungs: 0.9644 
+     precision_classification: 0.8876, recall_classification: 0.8874,f1_score_classification: 0.8739 
+
+2023-11-14 08:29:45,637 - INFO - Epoch 96/200, Train Loss: 0.1192, Val Loss: 0.1114 
+     pixel_acc_infected: 0.9741, dice_infected: 0.7859,iou_infected: 0.6627, precision_infected: 0.8056, recall_infected: 0.7924, f1_score_infected: 0.7989 
+     pixel_acc_lungs: 0.9829, dice_lungs: 0.9643,iou_lungs: 0.9313, precision_lungs: 0.9667, recall_lungs: 0.9622, f1_score_lungs: 0.9644 
+     precision_classification: 0.8879, recall_classification: 0.8877,f1_score_classification: 0.8741 
+
+2023-11-14 08:30:51,679 - INFO - Epoch 97/200, Train Loss: 0.1162, Val Loss: 0.1130 
+     pixel_acc_infected: 0.9742, dice_infected: 0.7863,iou_infected: 0.6632, precision_infected: 0.8058, recall_infected: 0.7928, f1_score_infected: 0.7992 
+     pixel_acc_lungs: 0.9829, dice_lungs: 0.9644,iou_lungs: 0.9314, precision_lungs: 0.9668, recall_lungs: 0.9622, f1_score_lungs: 0.9645 
+     precision_classification: 0.8881, recall_classification: 0.8879,f1_score_classification: 0.8744 
+
+2023-11-14 08:31:59,921 - INFO - Epoch 98/200, Train Loss: 0.1191, Val Loss: 0.1186 
+     pixel_acc_infected: 0.9742, dice_infected: 0.7865,iou_infected: 0.6635, precision_infected: 0.8060, recall_infected: 0.7929, f1_score_infected: 0.7994 
+     pixel_acc_lungs: 0.9830, dice_lungs: 0.9644,iou_lungs: 0.9314, precision_lungs: 0.9668, recall_lungs: 0.9622, f1_score_lungs: 0.9645 
+     precision_classification: 0.8881, recall_classification: 0.8880,f1_score_classification: 0.8745 
+
+2023-11-14 08:33:06,248 - INFO - Epoch 99/200, Train Loss: 0.1269, Val Loss: 0.1135 
+     pixel_acc_infected: 0.9742, dice_infected: 0.7869,iou_infected: 0.6639, precision_infected: 0.8063, recall_infected: 0.7932, f1_score_infected: 0.7997 
+     pixel_acc_lungs: 0.9830, dice_lungs: 0.9644,iou_lungs: 0.9315, precision_lungs: 0.9669, recall_lungs: 0.9622, f1_score_lungs: 0.9645 
+     precision_classification: 0.8882, recall_classification: 0.8881,f1_score_classification: 0.8746 
+
+2023-11-14 08:34:13,115 - INFO - Epoch 100/200, Train Loss: 0.1198, Val Loss: 0.1140 
+     pixel_acc_infected: 0.9743, dice_infected: 0.7872,iou_infected: 0.6642, precision_infected: 0.8066, recall_infected: 0.7932, f1_score_infected: 0.7998 
+     pixel_acc_lungs: 0.9830, dice_lungs: 0.9645,iou_lungs: 0.9316, precision_lungs: 0.9669, recall_lungs: 0.9623, f1_score_lungs: 0.9646 
+     precision_classification: 0.8885, recall_classification: 0.8884,f1_score_classification: 0.8749 
+
+2023-11-14 08:35:19,851 - INFO - Epoch 101/200, Train Loss: 0.1215, Val Loss: 0.1128 
+     pixel_acc_infected: 0.9743, dice_infected: 0.7875,iou_infected: 0.6645, precision_infected: 0.8071, recall_infected: 0.7932, f1_score_infected: 0.8001 
+     pixel_acc_lungs: 0.9830, dice_lungs: 0.9645,iou_lungs: 0.9316, precision_lungs: 0.9669, recall_lungs: 0.9623, f1_score_lungs: 0.9646 
+     precision_classification: 0.8887, recall_classification: 0.8886,f1_score_classification: 0.8751 
+
+2023-11-14 08:35:19,852 - INFO - save model at epoch 101, saving model
+2023-11-14 08:36:27,110 - INFO - Epoch 102/200, Train Loss: 0.1199, Val Loss: 0.1136 
+     pixel_acc_infected: 0.9743, dice_infected: 0.7877,iou_infected: 0.6647, precision_infected: 0.8071, recall_infected: 0.7934, f1_score_infected: 0.8002 
+     pixel_acc_lungs: 0.9830, dice_lungs: 0.9645,iou_lungs: 0.9317, precision_lungs: 0.9670, recall_lungs: 0.9623, f1_score_lungs: 0.9646 
+     precision_classification: 0.8888, recall_classification: 0.8887,f1_score_classification: 0.8753 
+
+2023-11-14 08:37:34,024 - INFO - Epoch 103/200, Train Loss: 0.1241, Val Loss: 0.1135 
+     pixel_acc_infected: 0.9743, dice_infected: 0.7879,iou_infected: 0.6649, precision_infected: 0.8071, recall_infected: 0.7938, f1_score_infected: 0.8004 
+     pixel_acc_lungs: 0.9830, dice_lungs: 0.9646,iou_lungs: 0.9317, precision_lungs: 0.9670, recall_lungs: 0.9623, f1_score_lungs: 0.9647 
+     precision_classification: 0.8889, recall_classification: 0.8888,f1_score_classification: 0.8754 
+
+2023-11-14 08:38:41,698 - INFO - Epoch 104/200, Train Loss: 0.1159, Val Loss: 0.1156 
+     pixel_acc_infected: 0.9744, dice_infected: 0.7881,iou_infected: 0.6652, precision_infected: 0.8073, recall_infected: 0.7938, f1_score_infected: 0.8005 
+     pixel_acc_lungs: 0.9830, dice_lungs: 0.9646,iou_lungs: 0.9318, precision_lungs: 0.9670, recall_lungs: 0.9624, f1_score_lungs: 0.9647 
+     precision_classification: 0.8892, recall_classification: 0.8891,f1_score_classification: 0.8757 
+
+2023-11-14 08:39:48,291 - INFO - Epoch 105/200, Train Loss: 0.1144, Val Loss: 0.1158 
+     pixel_acc_infected: 0.9744, dice_infected: 0.7884,iou_infected: 0.6656, precision_infected: 0.8073, recall_infected: 0.7944, f1_score_infected: 0.8008 
+     pixel_acc_lungs: 0.9831, dice_lungs: 0.9646,iou_lungs: 0.9318, precision_lungs: 0.9671, recall_lungs: 0.9624, f1_score_lungs: 0.9647 
+     precision_classification: 0.8891, recall_classification: 0.8891,f1_score_classification: 0.8757 
+
+2023-11-14 08:40:54,942 - INFO - Epoch 106/200, Train Loss: 0.1156, Val Loss: 0.1129 
+     pixel_acc_infected: 0.9744, dice_infected: 0.7886,iou_infected: 0.6659, precision_infected: 0.8073, recall_infected: 0.7946, f1_score_infected: 0.8009 
+     pixel_acc_lungs: 0.9831, dice_lungs: 0.9646,iou_lungs: 0.9319, precision_lungs: 0.9671, recall_lungs: 0.9624, f1_score_lungs: 0.9647 
+     precision_classification: 0.8894, recall_classification: 0.8892,f1_score_classification: 0.8759 
+
+2023-11-14 08:42:01,973 - INFO - Epoch 107/200, Train Loss: 0.1138, Val Loss: 0.1145 
+     pixel_acc_infected: 0.9744, dice_infected: 0.7889,iou_infected: 0.6661, precision_infected: 0.8073, recall_infected: 0.7950, f1_score_infected: 0.8011 
+     pixel_acc_lungs: 0.9831, dice_lungs: 0.9647,iou_lungs: 0.9319, precision_lungs: 0.9671, recall_lungs: 0.9624, f1_score_lungs: 0.9648 
+     precision_classification: 0.8897, recall_classification: 0.8895,f1_score_classification: 0.8762 
+
+2023-11-14 08:43:08,683 - INFO - Epoch 108/200, Train Loss: 0.1085, Val Loss: 0.1156 
+     pixel_acc_infected: 0.9744, dice_infected: 0.7891,iou_infected: 0.6664, precision_infected: 0.8075, recall_infected: 0.7953, f1_score_infected: 0.8013 
+     pixel_acc_lungs: 0.9831, dice_lungs: 0.9647,iou_lungs: 0.9320, precision_lungs: 0.9671, recall_lungs: 0.9625, f1_score_lungs: 0.9648 
+     precision_classification: 0.8899, recall_classification: 0.8896,f1_score_classification: 0.8764 
+
+2023-11-14 08:44:16,182 - INFO - Epoch 109/200, Train Loss: 0.1253, Val Loss: 0.1229 
+     pixel_acc_infected: 0.9745, dice_infected: 0.7893,iou_infected: 0.6666, precision_infected: 0.8075, recall_infected: 0.7954, f1_score_infected: 0.8014 
+     pixel_acc_lungs: 0.9831, dice_lungs: 0.9647,iou_lungs: 0.9320, precision_lungs: 0.9672, recall_lungs: 0.9625, f1_score_lungs: 0.9648 
+     precision_classification: 0.8901, recall_classification: 0.8898,f1_score_classification: 0.8766 
+
+2023-11-14 08:45:22,655 - INFO - Epoch 110/200, Train Loss: 0.1322, Val Loss: 0.1115 
+     pixel_acc_infected: 0.9745, dice_infected: 0.7895,iou_infected: 0.6669, precision_infected: 0.8076, recall_infected: 0.7956, f1_score_infected: 0.8016 
+     pixel_acc_lungs: 0.9831, dice_lungs: 0.9647,iou_lungs: 0.9321, precision_lungs: 0.9672, recall_lungs: 0.9625, f1_score_lungs: 0.9648 
+     precision_classification: 0.8902, recall_classification: 0.8899,f1_score_classification: 0.8768 
+
+2023-11-14 08:46:29,792 - INFO - Epoch 111/200, Train Loss: 0.1147, Val Loss: 0.1128 
+     pixel_acc_infected: 0.9745, dice_infected: 0.7897,iou_infected: 0.6671, precision_infected: 0.8079, recall_infected: 0.7956, f1_score_infected: 0.8017 
+     pixel_acc_lungs: 0.9831, dice_lungs: 0.9648,iou_lungs: 0.9321, precision_lungs: 0.9672, recall_lungs: 0.9625, f1_score_lungs: 0.9649 
+     precision_classification: 0.8903, recall_classification: 0.8901,f1_score_classification: 0.8770 
+
+2023-11-14 08:46:29,793 - INFO - save model at epoch 111, saving model
+2023-11-14 08:47:36,687 - INFO - Epoch 112/200, Train Loss: 0.1146, Val Loss: 0.1098 
+     pixel_acc_infected: 0.9745, dice_infected: 0.7900,iou_infected: 0.6675, precision_infected: 0.8082, recall_infected: 0.7958, f1_score_infected: 0.8019 
+     pixel_acc_lungs: 0.9831, dice_lungs: 0.9648,iou_lungs: 0.9322, precision_lungs: 0.9673, recall_lungs: 0.9625, f1_score_lungs: 0.9649 
+     precision_classification: 0.8905, recall_classification: 0.8903,f1_score_classification: 0.8772 
+
+2023-11-14 08:48:43,192 - INFO - Epoch 113/200, Train Loss: 0.1145, Val Loss: 0.1113 
+     pixel_acc_infected: 0.9745, dice_infected: 0.7902,iou_infected: 0.6676, precision_infected: 0.8081, recall_infected: 0.7961, f1_score_infected: 0.8020 
+     pixel_acc_lungs: 0.9831, dice_lungs: 0.9648,iou_lungs: 0.9322, precision_lungs: 0.9673, recall_lungs: 0.9625, f1_score_lungs: 0.9649 
+     precision_classification: 0.8907, recall_classification: 0.8905,f1_score_classification: 0.8774 
+
+2023-11-14 08:49:49,538 - INFO - Epoch 114/200, Train Loss: 0.1140, Val Loss: 0.1134 
+     pixel_acc_infected: 0.9746, dice_infected: 0.7905,iou_infected: 0.6680, precision_infected: 0.8083, recall_infected: 0.7964, f1_score_infected: 0.8023 
+     pixel_acc_lungs: 0.9832, dice_lungs: 0.9648,iou_lungs: 0.9322, precision_lungs: 0.9673, recall_lungs: 0.9626, f1_score_lungs: 0.9649 
+     precision_classification: 0.8908, recall_classification: 0.8906,f1_score_classification: 0.8775 
+
+2023-11-14 08:50:55,644 - INFO - Epoch 115/200, Train Loss: 0.1133, Val Loss: 0.1136 
+     pixel_acc_infected: 0.9746, dice_infected: 0.7906,iou_infected: 0.6681, precision_infected: 0.8084, recall_infected: 0.7964, f1_score_infected: 0.8024 
+     pixel_acc_lungs: 0.9832, dice_lungs: 0.9649,iou_lungs: 0.9323, precision_lungs: 0.9673, recall_lungs: 0.9626, f1_score_lungs: 0.9650 
+     precision_classification: 0.8908, recall_classification: 0.8906,f1_score_classification: 0.8775 
+
+2023-11-14 08:52:02,345 - INFO - Epoch 116/200, Train Loss: 0.1092, Val Loss: 0.1151 
+     pixel_acc_infected: 0.9746, dice_infected: 0.7908,iou_infected: 0.6684, precision_infected: 0.8085, recall_infected: 0.7966, f1_score_infected: 0.8025 
+     pixel_acc_lungs: 0.9832, dice_lungs: 0.9649,iou_lungs: 0.9323, precision_lungs: 0.9673, recall_lungs: 0.9626, f1_score_lungs: 0.9650 
+     precision_classification: 0.8909, recall_classification: 0.8906,f1_score_classification: 0.8776 
+
+2023-11-14 08:53:09,135 - INFO - Epoch 117/200, Train Loss: 0.1137, Val Loss: 0.1132 
+     pixel_acc_infected: 0.9746, dice_infected: 0.7910,iou_infected: 0.6687, precision_infected: 0.8087, recall_infected: 0.7968, f1_score_infected: 0.8027 
+     pixel_acc_lungs: 0.9832, dice_lungs: 0.9649,iou_lungs: 0.9324, precision_lungs: 0.9674, recall_lungs: 0.9626, f1_score_lungs: 0.9650 
+     precision_classification: 0.8910, recall_classification: 0.8908,f1_score_classification: 0.8778 
+
+2023-11-14 08:54:15,703 - INFO - Epoch 118/200, Train Loss: 0.1161, Val Loss: 0.1111 
+     pixel_acc_infected: 0.9746, dice_infected: 0.7912,iou_infected: 0.6689, precision_infected: 0.8089, recall_infected: 0.7969, f1_score_infected: 0.8028 
+     pixel_acc_lungs: 0.9832, dice_lungs: 0.9649,iou_lungs: 0.9324, precision_lungs: 0.9674, recall_lungs: 0.9626, f1_score_lungs: 0.9650 
+     precision_classification: 0.8913, recall_classification: 0.8910,f1_score_classification: 0.8781 
+
+2023-11-14 08:55:22,277 - INFO - Epoch 119/200, Train Loss: 0.1162, Val Loss: 0.1173 
+     pixel_acc_infected: 0.9747, dice_infected: 0.7914,iou_infected: 0.6691, precision_infected: 0.8088, recall_infected: 0.7973, f1_score_infected: 0.8030 
+     pixel_acc_lungs: 0.9832, dice_lungs: 0.9649,iou_lungs: 0.9324, precision_lungs: 0.9674, recall_lungs: 0.9627, f1_score_lungs: 0.9650 
+     precision_classification: 0.8914, recall_classification: 0.8910,f1_score_classification: 0.8781 
+
+2023-11-14 08:56:29,240 - INFO - Epoch 120/200, Train Loss: 0.1189, Val Loss: 0.1158 
+     pixel_acc_infected: 0.9747, dice_infected: 0.7913,iou_infected: 0.6691, precision_infected: 0.8088, recall_infected: 0.7972, f1_score_infected: 0.8030 
+     pixel_acc_lungs: 0.9832, dice_lungs: 0.9650,iou_lungs: 0.9325, precision_lungs: 0.9674, recall_lungs: 0.9627, f1_score_lungs: 0.9651 
+     precision_classification: 0.8915, recall_classification: 0.8912,f1_score_classification: 0.8783 
+
+2023-11-14 08:57:36,659 - INFO - Epoch 121/200, Train Loss: 0.1200, Val Loss: 0.1113 
+     pixel_acc_infected: 0.9747, dice_infected: 0.7915,iou_infected: 0.6693, precision_infected: 0.8090, recall_infected: 0.7973, f1_score_infected: 0.8031 
+     pixel_acc_lungs: 0.9832, dice_lungs: 0.9650,iou_lungs: 0.9325, precision_lungs: 0.9675, recall_lungs: 0.9627, f1_score_lungs: 0.9651 
+     precision_classification: 0.8916, recall_classification: 0.8913,f1_score_classification: 0.8784 
+
+2023-11-14 08:57:36,660 - INFO - save model at epoch 121, saving model
+2023-11-14 08:58:45,812 - INFO - Epoch 122/200, Train Loss: 0.1163, Val Loss: 0.1138 
+     pixel_acc_infected: 0.9747, dice_infected: 0.7917,iou_infected: 0.6694, precision_infected: 0.8093, recall_infected: 0.7973, f1_score_infected: 0.8032 
+     pixel_acc_lungs: 0.9832, dice_lungs: 0.9650,iou_lungs: 0.9325, precision_lungs: 0.9675, recall_lungs: 0.9627, f1_score_lungs: 0.9651 
+     precision_classification: 0.8918, recall_classification: 0.8915,f1_score_classification: 0.8786 
+
+2023-11-14 08:59:56,356 - INFO - Epoch 123/200, Train Loss: 0.1172, Val Loss: 0.1125 
+     pixel_acc_infected: 0.9747, dice_infected: 0.7919,iou_infected: 0.6697, precision_infected: 0.8095, recall_infected: 0.7975, f1_score_infected: 0.8034 
+     pixel_acc_lungs: 0.9832, dice_lungs: 0.9650,iou_lungs: 0.9326, precision_lungs: 0.9675, recall_lungs: 0.9627, f1_score_lungs: 0.9651 
+     precision_classification: 0.8919, recall_classification: 0.8916,f1_score_classification: 0.8787 
+
+2023-11-14 09:01:04,274 - INFO - Epoch 124/200, Train Loss: 0.1095, Val Loss: 0.1126 
+     pixel_acc_infected: 0.9747, dice_infected: 0.7921,iou_infected: 0.6699, precision_infected: 0.8096, recall_infected: 0.7977, f1_score_infected: 0.8036 
+     pixel_acc_lungs: 0.9833, dice_lungs: 0.9650,iou_lungs: 0.9326, precision_lungs: 0.9675, recall_lungs: 0.9627, f1_score_lungs: 0.9651 
+     precision_classification: 0.8921, recall_classification: 0.8918,f1_score_classification: 0.8789 
+
+2023-11-14 09:02:11,457 - INFO - Epoch 125/200, Train Loss: 0.1202, Val Loss: 0.1131 
+     pixel_acc_infected: 0.9748, dice_infected: 0.7922,iou_infected: 0.6700, precision_infected: 0.8097, recall_infected: 0.7977, f1_score_infected: 0.8037 
+     pixel_acc_lungs: 0.9833, dice_lungs: 0.9650,iou_lungs: 0.9326, precision_lungs: 0.9675, recall_lungs: 0.9628, f1_score_lungs: 0.9651 
+     precision_classification: 0.8922, recall_classification: 0.8920,f1_score_classification: 0.8791 
+
+2023-11-14 09:03:18,779 - INFO - Epoch 126/200, Train Loss: 0.1186, Val Loss: 0.1126 
+     pixel_acc_infected: 0.9748, dice_infected: 0.7922,iou_infected: 0.6701, precision_infected: 0.8096, recall_infected: 0.7978, f1_score_infected: 0.8037 
+     pixel_acc_lungs: 0.9833, dice_lungs: 0.9651,iou_lungs: 0.9327, precision_lungs: 0.9675, recall_lungs: 0.9628, f1_score_lungs: 0.9652 
+     precision_classification: 0.8923, recall_classification: 0.8920,f1_score_classification: 0.8792 
+
+2023-11-14 09:04:50,809 - INFO - Epoch 127/200, Train Loss: 0.1150, Val Loss: 0.1171 
+     pixel_acc_infected: 0.9748, dice_infected: 0.7922,iou_infected: 0.6701, precision_infected: 0.8095, recall_infected: 0.7979, f1_score_infected: 0.8037 
+     pixel_acc_lungs: 0.9833, dice_lungs: 0.9651,iou_lungs: 0.9327, precision_lungs: 0.9676, recall_lungs: 0.9628, f1_score_lungs: 0.9652 
+     precision_classification: 0.8924, recall_classification: 0.8921,f1_score_classification: 0.8793 
+
+2023-11-14 09:06:56,345 - INFO - Epoch 128/200, Train Loss: 0.1167, Val Loss: 0.1109 
+     pixel_acc_infected: 0.9748, dice_infected: 0.7923,iou_infected: 0.6702, precision_infected: 0.8096, recall_infected: 0.7980, f1_score_infected: 0.8037 
+     pixel_acc_lungs: 0.9833, dice_lungs: 0.9651,iou_lungs: 0.9327, precision_lungs: 0.9676, recall_lungs: 0.9628, f1_score_lungs: 0.9652 
+     precision_classification: 0.8924, recall_classification: 0.8922,f1_score_classification: 0.8793 
+
+2023-11-14 09:09:02,061 - INFO - Epoch 129/200, Train Loss: 0.1232, Val Loss: 0.1144 
+     pixel_acc_infected: 0.9748, dice_infected: 0.7925,iou_infected: 0.6704, precision_infected: 0.8097, recall_infected: 0.7981, f1_score_infected: 0.8039 
+     pixel_acc_lungs: 0.9833, dice_lungs: 0.9651,iou_lungs: 0.9328, precision_lungs: 0.9676, recall_lungs: 0.9628, f1_score_lungs: 0.9652 
+     precision_classification: 0.8924, recall_classification: 0.8922,f1_score_classification: 0.8794 
+
+2023-11-14 09:11:07,207 - INFO - Epoch 130/200, Train Loss: 0.1166, Val Loss: 0.1157 
+     pixel_acc_infected: 0.9748, dice_infected: 0.7926,iou_infected: 0.6705, precision_infected: 0.8097, recall_infected: 0.7982, f1_score_infected: 0.8039 
+     pixel_acc_lungs: 0.9833, dice_lungs: 0.9651,iou_lungs: 0.9328, precision_lungs: 0.9676, recall_lungs: 0.9628, f1_score_lungs: 0.9652 
+     precision_classification: 0.8926, recall_classification: 0.8924,f1_score_classification: 0.8795 
+
+2023-11-14 09:13:12,403 - INFO - Epoch 131/200, Train Loss: 0.1150, Val Loss: 0.1140 
+     pixel_acc_infected: 0.9748, dice_infected: 0.7926,iou_infected: 0.6706, precision_infected: 0.8098, recall_infected: 0.7982, f1_score_infected: 0.8040 
+     pixel_acc_lungs: 0.9833, dice_lungs: 0.9651,iou_lungs: 0.9328, precision_lungs: 0.9676, recall_lungs: 0.9628, f1_score_lungs: 0.9652 
+     precision_classification: 0.8927, recall_classification: 0.8925,f1_score_classification: 0.8796 
+
+2023-11-14 09:13:12,405 - INFO - save model at epoch 131, saving model
+2023-11-14 09:14:26,630 - INFO - Epoch 132/200, Train Loss: 0.1226, Val Loss: 0.1141 
+     pixel_acc_infected: 0.9749, dice_infected: 0.7927,iou_infected: 0.6707, precision_infected: 0.8098, recall_infected: 0.7983, f1_score_infected: 0.8040 
+     pixel_acc_lungs: 0.9833, dice_lungs: 0.9652,iou_lungs: 0.9328, precision_lungs: 0.9677, recall_lungs: 0.9629, f1_score_lungs: 0.9652 
+     precision_classification: 0.8928, recall_classification: 0.8926,f1_score_classification: 0.8797 
+
+2023-11-14 09:15:59,055 - INFO - Epoch 133/200, Train Loss: 0.1311, Val Loss: 0.1153 
+     pixel_acc_infected: 0.9749, dice_infected: 0.7928,iou_infected: 0.6708, precision_infected: 0.8099, recall_infected: 0.7984, f1_score_infected: 0.8041 
+     pixel_acc_lungs: 0.9833, dice_lungs: 0.9652,iou_lungs: 0.9329, precision_lungs: 0.9677, recall_lungs: 0.9629, f1_score_lungs: 0.9653 
+     precision_classification: 0.8927, recall_classification: 0.8925,f1_score_classification: 0.8797 
+
+2023-11-14 09:17:42,446 - INFO - Epoch 134/200, Train Loss: 0.1200, Val Loss: 0.1160 
+     pixel_acc_infected: 0.9749, dice_infected: 0.7929,iou_infected: 0.6709, precision_infected: 0.8099, recall_infected: 0.7986, f1_score_infected: 0.8042 
+     pixel_acc_lungs: 0.9833, dice_lungs: 0.9652,iou_lungs: 0.9329, precision_lungs: 0.9677, recall_lungs: 0.9629, f1_score_lungs: 0.9653 
+     precision_classification: 0.8929, recall_classification: 0.8927,f1_score_classification: 0.8799 
+
+2023-11-14 09:18:49,626 - INFO - Epoch 135/200, Train Loss: 0.1209, Val Loss: 0.1145 
+     pixel_acc_infected: 0.9749, dice_infected: 0.7931,iou_infected: 0.6712, precision_infected: 0.8099, recall_infected: 0.7989, f1_score_infected: 0.8044 
+     pixel_acc_lungs: 0.9833, dice_lungs: 0.9652,iou_lungs: 0.9329, precision_lungs: 0.9677, recall_lungs: 0.9629, f1_score_lungs: 0.9653 
+     precision_classification: 0.8930, recall_classification: 0.8928,f1_score_classification: 0.8800 
+
+2023-11-14 09:19:57,801 - INFO - Epoch 136/200, Train Loss: 0.1094, Val Loss: 0.1139 
+     pixel_acc_infected: 0.9749, dice_infected: 0.7933,iou_infected: 0.6714, precision_infected: 0.8100, recall_infected: 0.7991, f1_score_infected: 0.8045 
+     pixel_acc_lungs: 0.9833, dice_lungs: 0.9652,iou_lungs: 0.9329, precision_lungs: 0.9677, recall_lungs: 0.9629, f1_score_lungs: 0.9653 
+     precision_classification: 0.8930, recall_classification: 0.8928,f1_score_classification: 0.8800 
+
+2023-11-14 09:21:56,353 - INFO - Epoch 137/200, Train Loss: 0.1199, Val Loss: 0.1131 
+     pixel_acc_infected: 0.9749, dice_infected: 0.7933,iou_infected: 0.6715, precision_infected: 0.8101, recall_infected: 0.7991, f1_score_infected: 0.8046 
+     pixel_acc_lungs: 0.9833, dice_lungs: 0.9652,iou_lungs: 0.9330, precision_lungs: 0.9677, recall_lungs: 0.9629, f1_score_lungs: 0.9653 
+     precision_classification: 0.8930, recall_classification: 0.8928,f1_score_classification: 0.8801 
+
+2023-11-14 09:24:01,954 - INFO - Epoch 138/200, Train Loss: 0.1263, Val Loss: 0.1126 
+     pixel_acc_infected: 0.9749, dice_infected: 0.7935,iou_infected: 0.6717, precision_infected: 0.8102, recall_infected: 0.7993, f1_score_infected: 0.8047 
+     pixel_acc_lungs: 0.9834, dice_lungs: 0.9652,iou_lungs: 0.9330, precision_lungs: 0.9678, recall_lungs: 0.9629, f1_score_lungs: 0.9653 
+     precision_classification: 0.8931, recall_classification: 0.8928,f1_score_classification: 0.8801 
+
+2023-11-14 09:26:07,492 - INFO - Epoch 139/200, Train Loss: 0.1094, Val Loss: 0.1139 
+     pixel_acc_infected: 0.9749, dice_infected: 0.7936,iou_infected: 0.6718, precision_infected: 0.8103, recall_infected: 0.7994, f1_score_infected: 0.8048 
+     pixel_acc_lungs: 0.9834, dice_lungs: 0.9653,iou_lungs: 0.9330, precision_lungs: 0.9678, recall_lungs: 0.9629, f1_score_lungs: 0.9653 
+     precision_classification: 0.8932, recall_classification: 0.8929,f1_score_classification: 0.8802 
+
+2023-11-14 09:28:12,868 - INFO - Epoch 140/200, Train Loss: 0.1101, Val Loss: 0.1123 
+     pixel_acc_infected: 0.9750, dice_infected: 0.7936,iou_infected: 0.6718, precision_infected: 0.8102, recall_infected: 0.7994, f1_score_infected: 0.8048 
+     pixel_acc_lungs: 0.9834, dice_lungs: 0.9653,iou_lungs: 0.9330, precision_lungs: 0.9678, recall_lungs: 0.9629, f1_score_lungs: 0.9654 
+     precision_classification: 0.8933, recall_classification: 0.8930,f1_score_classification: 0.8803 
+
+2023-11-14 09:30:50,624 - INFO - Epoch 141/200, Train Loss: 0.1167, Val Loss: 0.1160 
+     pixel_acc_infected: 0.9750, dice_infected: 0.7938,iou_infected: 0.6720, precision_infected: 0.8103, recall_infected: 0.7996, f1_score_infected: 0.8049 
+     pixel_acc_lungs: 0.9834, dice_lungs: 0.9653,iou_lungs: 0.9331, precision_lungs: 0.9678, recall_lungs: 0.9630, f1_score_lungs: 0.9654 
+     precision_classification: 0.8933, recall_classification: 0.8930,f1_score_classification: 0.8803 
+
+2023-11-14 09:30:50,626 - INFO - save model at epoch 141, saving model
+2023-11-14 09:32:55,377 - INFO - Epoch 142/200, Train Loss: 0.1222, Val Loss: 0.1101 
+     pixel_acc_infected: 0.9750, dice_infected: 0.7939,iou_infected: 0.6722, precision_infected: 0.8104, recall_infected: 0.7997, f1_score_infected: 0.8050 
+     pixel_acc_lungs: 0.9834, dice_lungs: 0.9653,iou_lungs: 0.9331, precision_lungs: 0.9678, recall_lungs: 0.9630, f1_score_lungs: 0.9654 
+     precision_classification: 0.8935, recall_classification: 0.8932,f1_score_classification: 0.8805 
+
+2023-11-14 09:35:00,532 - INFO - Epoch 143/200, Train Loss: 0.1175, Val Loss: 0.1136 
+     pixel_acc_infected: 0.9750, dice_infected: 0.7941,iou_infected: 0.6724, precision_infected: 0.8106, recall_infected: 0.7998, f1_score_infected: 0.8052 
+     pixel_acc_lungs: 0.9834, dice_lungs: 0.9653,iou_lungs: 0.9331, precision_lungs: 0.9678, recall_lungs: 0.9630, f1_score_lungs: 0.9654 
+     precision_classification: 0.8936, recall_classification: 0.8934,f1_score_classification: 0.8807 
+
+2023-11-14 09:37:05,707 - INFO - Epoch 144/200, Train Loss: 0.1072, Val Loss: 0.1133 
+     pixel_acc_infected: 0.9750, dice_infected: 0.7942,iou_infected: 0.6725, precision_infected: 0.8106, recall_infected: 0.8000, f1_score_infected: 0.8053 
+     pixel_acc_lungs: 0.9834, dice_lungs: 0.9653,iou_lungs: 0.9331, precision_lungs: 0.9678, recall_lungs: 0.9630, f1_score_lungs: 0.9654 
+     precision_classification: 0.8937, recall_classification: 0.8935,f1_score_classification: 0.8808 
+
+2023-11-14 09:38:12,187 - INFO - Epoch 145/200, Train Loss: 0.1097, Val Loss: 0.1124 
+     pixel_acc_infected: 0.9750, dice_infected: 0.7943,iou_infected: 0.6726, precision_infected: 0.8107, recall_infected: 0.8001, f1_score_infected: 0.8054 
+     pixel_acc_lungs: 0.9834, dice_lungs: 0.9653,iou_lungs: 0.9332, precision_lungs: 0.9679, recall_lungs: 0.9630, f1_score_lungs: 0.9654 
+     precision_classification: 0.8938, recall_classification: 0.8936,f1_score_classification: 0.8809 
+
+2023-11-14 09:39:19,671 - INFO - Epoch 146/200, Train Loss: 0.1150, Val Loss: 0.1136 
+     pixel_acc_infected: 0.9750, dice_infected: 0.7944,iou_infected: 0.6728, precision_infected: 0.8108, recall_infected: 0.8003, f1_score_infected: 0.8055 
+     pixel_acc_lungs: 0.9834, dice_lungs: 0.9653,iou_lungs: 0.9332, precision_lungs: 0.9679, recall_lungs: 0.9630, f1_score_lungs: 0.9654 
+     precision_classification: 0.8940, recall_classification: 0.8938,f1_score_classification: 0.8811 
+
+2023-11-14 09:41:50,952 - INFO - Epoch 147/200, Train Loss: 0.1179, Val Loss: 0.1201 
+     pixel_acc_infected: 0.9750, dice_infected: 0.7945,iou_infected: 0.6729, precision_infected: 0.8108, recall_infected: 0.8004, f1_score_infected: 0.8056 
+     pixel_acc_lungs: 0.9834, dice_lungs: 0.9654,iou_lungs: 0.9332, precision_lungs: 0.9679, recall_lungs: 0.9630, f1_score_lungs: 0.9654 
+     precision_classification: 0.8939, recall_classification: 0.8938,f1_score_classification: 0.8811 
+
+2023-11-14 09:43:56,285 - INFO - Epoch 148/200, Train Loss: 0.1146, Val Loss: 0.1143 
+     pixel_acc_infected: 0.9750, dice_infected: 0.7945,iou_infected: 0.6729, precision_infected: 0.8108, recall_infected: 0.8004, f1_score_infected: 0.8056 
+     pixel_acc_lungs: 0.9834, dice_lungs: 0.9654,iou_lungs: 0.9332, precision_lungs: 0.9679, recall_lungs: 0.9630, f1_score_lungs: 0.9655 
+     precision_classification: 0.8941, recall_classification: 0.8940,f1_score_classification: 0.8813 
+
+2023-11-14 09:46:01,133 - INFO - Epoch 149/200, Train Loss: 0.1153, Val Loss: 0.1115 
+     pixel_acc_infected: 0.9750, dice_infected: 0.7946,iou_infected: 0.6730, precision_infected: 0.8109, recall_infected: 0.8004, f1_score_infected: 0.8056 
+     pixel_acc_lungs: 0.9834, dice_lungs: 0.9654,iou_lungs: 0.9332, precision_lungs: 0.9679, recall_lungs: 0.9630, f1_score_lungs: 0.9655 
+     precision_classification: 0.8943, recall_classification: 0.8941,f1_score_classification: 0.8814 
+
+2023-11-14 09:48:06,526 - INFO - Epoch 150/200, Train Loss: 0.1205, Val Loss: 0.1132 
+     pixel_acc_infected: 0.9751, dice_infected: 0.7947,iou_infected: 0.6731, precision_infected: 0.8109, recall_infected: 0.8005, f1_score_infected: 0.8057 
+     pixel_acc_lungs: 0.9834, dice_lungs: 0.9654,iou_lungs: 0.9333, precision_lungs: 0.9679, recall_lungs: 0.9630, f1_score_lungs: 0.9655 
+     precision_classification: 0.8943, recall_classification: 0.8942,f1_score_classification: 0.8815 
+
+2023-11-14 09:50:11,688 - INFO - Epoch 151/200, Train Loss: 0.1189, Val Loss: 0.1139 
+     pixel_acc_infected: 0.9751, dice_infected: 0.7947,iou_infected: 0.6732, precision_infected: 0.8109, recall_infected: 0.8006, f1_score_infected: 0.8057 
+     pixel_acc_lungs: 0.9834, dice_lungs: 0.9654,iou_lungs: 0.9333, precision_lungs: 0.9679, recall_lungs: 0.9631, f1_score_lungs: 0.9655 
+     precision_classification: 0.8945, recall_classification: 0.8944,f1_score_classification: 0.8816 
+
+2023-11-14 09:50:11,689 - INFO - save model at epoch 151, saving model
+2023-11-14 09:52:49,553 - INFO - Epoch 152/200, Train Loss: 0.1094, Val Loss: 0.1144 
+     pixel_acc_infected: 0.9751, dice_infected: 0.7948,iou_infected: 0.6733, precision_infected: 0.8110, recall_infected: 0.8006, f1_score_infected: 0.8058 
+     pixel_acc_lungs: 0.9834, dice_lungs: 0.9654,iou_lungs: 0.9333, precision_lungs: 0.9680, recall_lungs: 0.9631, f1_score_lungs: 0.9655 
+     precision_classification: 0.8945, recall_classification: 0.8945,f1_score_classification: 0.8818 
+
+2023-11-14 09:54:53,948 - INFO - Epoch 153/200, Train Loss: 0.1117, Val Loss: 0.1118 
+     pixel_acc_infected: 0.9751, dice_infected: 0.7948,iou_infected: 0.6733, precision_infected: 0.8111, recall_infected: 0.8006, f1_score_infected: 0.8058 
+     pixel_acc_lungs: 0.9834, dice_lungs: 0.9654,iou_lungs: 0.9333, precision_lungs: 0.9680, recall_lungs: 0.9631, f1_score_lungs: 0.9655 
+     precision_classification: 0.8946, recall_classification: 0.8946,f1_score_classification: 0.8819 
+
+2023-11-14 09:56:59,391 - INFO - Epoch 154/200, Train Loss: 0.1268, Val Loss: 0.1145 
+     pixel_acc_infected: 0.9751, dice_infected: 0.7950,iou_infected: 0.6734, precision_infected: 0.8112, recall_infected: 0.8007, f1_score_infected: 0.8059 
+     pixel_acc_lungs: 0.9834, dice_lungs: 0.9654,iou_lungs: 0.9333, precision_lungs: 0.9680, recall_lungs: 0.9631, f1_score_lungs: 0.9655 
+     precision_classification: 0.8947, recall_classification: 0.8947,f1_score_classification: 0.8820 
+
+2023-11-14 09:59:05,101 - INFO - Epoch 155/200, Train Loss: 0.1085, Val Loss: 0.1120 
+     pixel_acc_infected: 0.9751, dice_infected: 0.7950,iou_infected: 0.6735, precision_infected: 0.8113, recall_infected: 0.8007, f1_score_infected: 0.8060 
+     pixel_acc_lungs: 0.9834, dice_lungs: 0.9654,iou_lungs: 0.9334, precision_lungs: 0.9680, recall_lungs: 0.9631, f1_score_lungs: 0.9655 
+     precision_classification: 0.8948, recall_classification: 0.8948,f1_score_classification: 0.8820 
+
+2023-11-14 10:01:10,307 - INFO - Epoch 156/200, Train Loss: 0.1170, Val Loss: 0.1115 
+     pixel_acc_infected: 0.9751, dice_infected: 0.7950,iou_infected: 0.6735, precision_infected: 0.8113, recall_infected: 0.8007, f1_score_infected: 0.8060 
+     pixel_acc_lungs: 0.9835, dice_lungs: 0.9654,iou_lungs: 0.9334, precision_lungs: 0.9680, recall_lungs: 0.9631, f1_score_lungs: 0.9655 
+     precision_classification: 0.8950, recall_classification: 0.8950,f1_score_classification: 0.8822 
+
+2023-11-14 10:03:47,202 - INFO - Epoch 157/200, Train Loss: 0.1099, Val Loss: 0.1138 
+     pixel_acc_infected: 0.9751, dice_infected: 0.7951,iou_infected: 0.6736, precision_infected: 0.8113, recall_infected: 0.8008, f1_score_infected: 0.8060 
+     pixel_acc_lungs: 0.9835, dice_lungs: 0.9655,iou_lungs: 0.9334, precision_lungs: 0.9680, recall_lungs: 0.9631, f1_score_lungs: 0.9656 
+     precision_classification: 0.8951, recall_classification: 0.8950,f1_score_classification: 0.8823 
+
+2023-11-14 10:05:52,208 - INFO - Epoch 158/200, Train Loss: 0.1132, Val Loss: 0.1106 
+     pixel_acc_infected: 0.9751, dice_infected: 0.7951,iou_infected: 0.6736, precision_infected: 0.8114, recall_infected: 0.8008, f1_score_infected: 0.8060 
+     pixel_acc_lungs: 0.9835, dice_lungs: 0.9655,iou_lungs: 0.9334, precision_lungs: 0.9680, recall_lungs: 0.9631, f1_score_lungs: 0.9656 
+     precision_classification: 0.8952, recall_classification: 0.8950,f1_score_classification: 0.8824 
+
+2023-11-14 10:06:59,497 - INFO - Epoch 159/200, Train Loss: 0.1135, Val Loss: 0.1125 
+     pixel_acc_infected: 0.9751, dice_infected: 0.7952,iou_infected: 0.6737, precision_infected: 0.8113, recall_infected: 0.8009, f1_score_infected: 0.8061 
+     pixel_acc_lungs: 0.9835, dice_lungs: 0.9655,iou_lungs: 0.9334, precision_lungs: 0.9680, recall_lungs: 0.9631, f1_score_lungs: 0.9656 
+     precision_classification: 0.8952, recall_classification: 0.8951,f1_score_classification: 0.8824 
+
+2023-11-14 10:08:06,869 - INFO - Epoch 160/200, Train Loss: 0.1107, Val Loss: 0.1112 
+     pixel_acc_infected: 0.9751, dice_infected: 0.7952,iou_infected: 0.6738, precision_infected: 0.8114, recall_infected: 0.8009, f1_score_infected: 0.8061 
+     pixel_acc_lungs: 0.9835, dice_lungs: 0.9655,iou_lungs: 0.9334, precision_lungs: 0.9680, recall_lungs: 0.9631, f1_score_lungs: 0.9656 
+     precision_classification: 0.8954, recall_classification: 0.8953,f1_score_classification: 0.8826 
+
+2023-11-14 10:10:05,534 - INFO - Epoch 161/200, Train Loss: 0.1270, Val Loss: 0.1139 
+     pixel_acc_infected: 0.9752, dice_infected: 0.7953,iou_infected: 0.6738, precision_infected: 0.8115, recall_infected: 0.8009, f1_score_infected: 0.8062 
+     pixel_acc_lungs: 0.9835, dice_lungs: 0.9655,iou_lungs: 0.9335, precision_lungs: 0.9681, recall_lungs: 0.9631, f1_score_lungs: 0.9656 
+     precision_classification: 0.8955, recall_classification: 0.8954,f1_score_classification: 0.8827 
+
+2023-11-14 10:10:05,535 - INFO - save model at epoch 161, saving model
+2023-11-14 10:12:10,864 - INFO - Epoch 162/200, Train Loss: 0.1238, Val Loss: 0.1134 
+     pixel_acc_infected: 0.9752, dice_infected: 0.7953,iou_infected: 0.6738, precision_infected: 0.8114, recall_infected: 0.8011, f1_score_infected: 0.8062 
+     pixel_acc_lungs: 0.9835, dice_lungs: 0.9655,iou_lungs: 0.9335, precision_lungs: 0.9681, recall_lungs: 0.9631, f1_score_lungs: 0.9656 
+     precision_classification: 0.8957, recall_classification: 0.8955,f1_score_classification: 0.8829 
+
+2023-11-14 10:14:47,951 - INFO - Epoch 163/200, Train Loss: 0.1163, Val Loss: 0.1152 
+     pixel_acc_infected: 0.9752, dice_infected: 0.7953,iou_infected: 0.6738, precision_infected: 0.8114, recall_infected: 0.8011, f1_score_infected: 0.8062 
+     pixel_acc_lungs: 0.9835, dice_lungs: 0.9655,iou_lungs: 0.9335, precision_lungs: 0.9681, recall_lungs: 0.9631, f1_score_lungs: 0.9656 
+     precision_classification: 0.8958, recall_classification: 0.8957,f1_score_classification: 0.8831 
+
+2023-11-14 10:16:51,965 - INFO - Epoch 164/200, Train Loss: 0.1243, Val Loss: 0.1126 
+     pixel_acc_infected: 0.9752, dice_infected: 0.7954,iou_infected: 0.6740, precision_infected: 0.8115, recall_infected: 0.8013, f1_score_infected: 0.8063 
+     pixel_acc_lungs: 0.9835, dice_lungs: 0.9655,iou_lungs: 0.9335, precision_lungs: 0.9681, recall_lungs: 0.9632, f1_score_lungs: 0.9656 
+     precision_classification: 0.8960, recall_classification: 0.8958,f1_score_classification: 0.8831 
+
+2023-11-14 10:18:57,617 - INFO - Epoch 165/200, Train Loss: 0.1160, Val Loss: 0.1135 
+     pixel_acc_infected: 0.9752, dice_infected: 0.7955,iou_infected: 0.6741, precision_infected: 0.8115, recall_infected: 0.8014, f1_score_infected: 0.8064 
+     pixel_acc_lungs: 0.9835, dice_lungs: 0.9655,iou_lungs: 0.9335, precision_lungs: 0.9681, recall_lungs: 0.9632, f1_score_lungs: 0.9656 
+     precision_classification: 0.8960, recall_classification: 0.8958,f1_score_classification: 0.8832 
+
+2023-11-14 10:21:02,659 - INFO - Epoch 166/200, Train Loss: 0.1162, Val Loss: 0.1111 
+     pixel_acc_infected: 0.9752, dice_infected: 0.7956,iou_infected: 0.6742, precision_infected: 0.8115, recall_infected: 0.8015, f1_score_infected: 0.8065 
+     pixel_acc_lungs: 0.9835, dice_lungs: 0.9655,iou_lungs: 0.9335, precision_lungs: 0.9681, recall_lungs: 0.9632, f1_score_lungs: 0.9656 
+     precision_classification: 0.8961, recall_classification: 0.8959,f1_score_classification: 0.8833 
+
+2023-11-14 10:23:08,034 - INFO - Epoch 167/200, Train Loss: 0.1168, Val Loss: 0.1144 
+     pixel_acc_infected: 0.9752, dice_infected: 0.7956,iou_infected: 0.6743, precision_infected: 0.8115, recall_infected: 0.8017, f1_score_infected: 0.8065 
+     pixel_acc_lungs: 0.9835, dice_lungs: 0.9655,iou_lungs: 0.9336, precision_lungs: 0.9681, recall_lungs: 0.9632, f1_score_lungs: 0.9656 
+     precision_classification: 0.8961, recall_classification: 0.8960,f1_score_classification: 0.8834 
+
+2023-11-14 10:25:12,703 - INFO - Epoch 168/200, Train Loss: 0.1133, Val Loss: 0.1126 
+     pixel_acc_infected: 0.9752, dice_infected: 0.7957,iou_infected: 0.6744, precision_infected: 0.8115, recall_infected: 0.8017, f1_score_infected: 0.8066 
+     pixel_acc_lungs: 0.9835, dice_lungs: 0.9656,iou_lungs: 0.9336, precision_lungs: 0.9681, recall_lungs: 0.9632, f1_score_lungs: 0.9656 
+     precision_classification: 0.8962, recall_classification: 0.8961,f1_score_classification: 0.8834 
+
+2023-11-14 10:27:50,802 - INFO - Epoch 169/200, Train Loss: 0.1270, Val Loss: 0.1116 
+     pixel_acc_infected: 0.9752, dice_infected: 0.7958,iou_infected: 0.6745, precision_infected: 0.8116, recall_infected: 0.8018, f1_score_infected: 0.8067 
+     pixel_acc_lungs: 0.9835, dice_lungs: 0.9656,iou_lungs: 0.9336, precision_lungs: 0.9681, recall_lungs: 0.9632, f1_score_lungs: 0.9657 
+     precision_classification: 0.8962, recall_classification: 0.8961,f1_score_classification: 0.8835 
+
+2023-11-14 10:29:55,841 - INFO - Epoch 170/200, Train Loss: 0.1221, Val Loss: 0.1097 
+     pixel_acc_infected: 0.9752, dice_infected: 0.7959,iou_infected: 0.6746, precision_infected: 0.8117, recall_infected: 0.8018, f1_score_infected: 0.8067 
+     pixel_acc_lungs: 0.9835, dice_lungs: 0.9656,iou_lungs: 0.9336, precision_lungs: 0.9681, recall_lungs: 0.9632, f1_score_lungs: 0.9657 
+     precision_classification: 0.8963, recall_classification: 0.8963,f1_score_classification: 0.8836 
+
+2023-11-14 10:32:01,380 - INFO - Epoch 171/200, Train Loss: 0.1205, Val Loss: 0.1117 
+     pixel_acc_infected: 0.9752, dice_infected: 0.7959,iou_infected: 0.6746, precision_infected: 0.8118, recall_infected: 0.8018, f1_score_infected: 0.8067 
+     pixel_acc_lungs: 0.9835, dice_lungs: 0.9656,iou_lungs: 0.9336, precision_lungs: 0.9681, recall_lungs: 0.9632, f1_score_lungs: 0.9657 
+     precision_classification: 0.8963, recall_classification: 0.8962,f1_score_classification: 0.8836 
+
+2023-11-14 10:32:01,381 - INFO - save model at epoch 171, saving model
+2023-11-14 10:34:07,451 - INFO - Epoch 172/200, Train Loss: 0.1126, Val Loss: 0.1099 
+     pixel_acc_infected: 0.9752, dice_infected: 0.7960,iou_infected: 0.6747, precision_infected: 0.8119, recall_infected: 0.8018, f1_score_infected: 0.8068 
+     pixel_acc_lungs: 0.9835, dice_lungs: 0.9656,iou_lungs: 0.9336, precision_lungs: 0.9682, recall_lungs: 0.9632, f1_score_lungs: 0.9657 
+     precision_classification: 0.8963, recall_classification: 0.8963,f1_score_classification: 0.8836 
+
+2023-11-14 10:36:12,872 - INFO - Epoch 173/200, Train Loss: 0.1317, Val Loss: 0.1167 
+     pixel_acc_infected: 0.9752, dice_infected: 0.7961,iou_infected: 0.6748, precision_infected: 0.8120, recall_infected: 0.8019, f1_score_infected: 0.8069 
+     pixel_acc_lungs: 0.9835, dice_lungs: 0.9656,iou_lungs: 0.9336, precision_lungs: 0.9682, recall_lungs: 0.9632, f1_score_lungs: 0.9657 
+     precision_classification: 0.8964, recall_classification: 0.8963,f1_score_classification: 0.8837 
+
+2023-11-14 10:38:50,487 - INFO - Epoch 174/200, Train Loss: 0.1213, Val Loss: 0.1137 
+     pixel_acc_infected: 0.9753, dice_infected: 0.7962,iou_infected: 0.6749, precision_infected: 0.8120, recall_infected: 0.8019, f1_score_infected: 0.8069 
+     pixel_acc_lungs: 0.9835, dice_lungs: 0.9656,iou_lungs: 0.9337, precision_lungs: 0.9682, recall_lungs: 0.9632, f1_score_lungs: 0.9657 
+     precision_classification: 0.8964, recall_classification: 0.8963,f1_score_classification: 0.8837 
+
+2023-11-14 10:40:55,803 - INFO - Epoch 175/200, Train Loss: 0.1241, Val Loss: 0.1109 
+     pixel_acc_infected: 0.9753, dice_infected: 0.7962,iou_infected: 0.6750, precision_infected: 0.8122, recall_infected: 0.8019, f1_score_infected: 0.8070 
+     pixel_acc_lungs: 0.9835, dice_lungs: 0.9656,iou_lungs: 0.9337, precision_lungs: 0.9682, recall_lungs: 0.9632, f1_score_lungs: 0.9657 
+     precision_classification: 0.8964, recall_classification: 0.8963,f1_score_classification: 0.8837 
+
+2023-11-14 10:43:01,967 - INFO - Epoch 176/200, Train Loss: 0.1166, Val Loss: 0.1117 
+     pixel_acc_infected: 0.9753, dice_infected: 0.7962,iou_infected: 0.6749, precision_infected: 0.8123, recall_infected: 0.8017, f1_score_infected: 0.8070 
+     pixel_acc_lungs: 0.9835, dice_lungs: 0.9656,iou_lungs: 0.9337, precision_lungs: 0.9682, recall_lungs: 0.9632, f1_score_lungs: 0.9657 
+     precision_classification: 0.8963, recall_classification: 0.8962,f1_score_classification: 0.8836 
+
+2023-11-14 10:45:07,227 - INFO - Epoch 177/200, Train Loss: 0.1203, Val Loss: 0.1140 
+     pixel_acc_infected: 0.9753, dice_infected: 0.7962,iou_infected: 0.6749, precision_infected: 0.8123, recall_infected: 0.8017, f1_score_infected: 0.8070 
+     pixel_acc_lungs: 0.9835, dice_lungs: 0.9656,iou_lungs: 0.9337, precision_lungs: 0.9682, recall_lungs: 0.9632, f1_score_lungs: 0.9657 
+     precision_classification: 0.8964, recall_classification: 0.8963,f1_score_classification: 0.8837 
+
+2023-11-14 10:47:13,265 - INFO - Epoch 178/200, Train Loss: 0.1239, Val Loss: 0.1121 
+     pixel_acc_infected: 0.9753, dice_infected: 0.7963,iou_infected: 0.6750, precision_infected: 0.8123, recall_infected: 0.8018, f1_score_infected: 0.8070 
+     pixel_acc_lungs: 0.9835, dice_lungs: 0.9656,iou_lungs: 0.9337, precision_lungs: 0.9682, recall_lungs: 0.9633, f1_score_lungs: 0.9657 
+     precision_classification: 0.8965, recall_classification: 0.8963,f1_score_classification: 0.8837 
+
+2023-11-14 10:49:18,040 - INFO - Epoch 179/200, Train Loss: 0.1155, Val Loss: 0.1117 
+     pixel_acc_infected: 0.9753, dice_infected: 0.7963,iou_infected: 0.6750, precision_infected: 0.8124, recall_infected: 0.8018, f1_score_infected: 0.8071 
+     pixel_acc_lungs: 0.9835, dice_lungs: 0.9656,iou_lungs: 0.9337, precision_lungs: 0.9682, recall_lungs: 0.9633, f1_score_lungs: 0.9657 
+     precision_classification: 0.8965, recall_classification: 0.8963,f1_score_classification: 0.8837 
+
+2023-11-14 10:50:25,251 - INFO - Epoch 180/200, Train Loss: 0.1187, Val Loss: 0.1164 
+     pixel_acc_infected: 0.9753, dice_infected: 0.7964,iou_infected: 0.6752, precision_infected: 0.8124, recall_infected: 0.8020, f1_score_infected: 0.8072 
+     pixel_acc_lungs: 0.9835, dice_lungs: 0.9656,iou_lungs: 0.9337, precision_lungs: 0.9682, recall_lungs: 0.9633, f1_score_lungs: 0.9657 
+     precision_classification: 0.8965, recall_classification: 0.8963,f1_score_classification: 0.8837 
+
+2023-11-14 10:51:32,308 - INFO - Epoch 181/200, Train Loss: 0.1144, Val Loss: 0.1107 
+     pixel_acc_infected: 0.9753, dice_infected: 0.7964,iou_infected: 0.6752, precision_infected: 0.8125, recall_infected: 0.8020, f1_score_infected: 0.8072 
+     pixel_acc_lungs: 0.9835, dice_lungs: 0.9657,iou_lungs: 0.9338, precision_lungs: 0.9682, recall_lungs: 0.9633, f1_score_lungs: 0.9657 
+     precision_classification: 0.8965, recall_classification: 0.8963,f1_score_classification: 0.8838 
+
+2023-11-14 10:51:32,310 - INFO - save model at epoch 181, saving model
+2023-11-14 10:52:39,952 - INFO - Epoch 182/200, Train Loss: 0.1140, Val Loss: 0.1153 
+     pixel_acc_infected: 0.9753, dice_infected: 0.7965,iou_infected: 0.6752, precision_infected: 0.8125, recall_infected: 0.8020, f1_score_infected: 0.8072 
+     pixel_acc_lungs: 0.9836, dice_lungs: 0.9657,iou_lungs: 0.9338, precision_lungs: 0.9682, recall_lungs: 0.9633, f1_score_lungs: 0.9657 
+     precision_classification: 0.8966, recall_classification: 0.8963,f1_score_classification: 0.8838 
+
+2023-11-14 10:53:47,628 - INFO - Epoch 183/200, Train Loss: 0.1144, Val Loss: 0.1113 
+     pixel_acc_infected: 0.9753, dice_infected: 0.7965,iou_infected: 0.6753, precision_infected: 0.8125, recall_infected: 0.8020, f1_score_infected: 0.8072 
+     pixel_acc_lungs: 0.9836, dice_lungs: 0.9657,iou_lungs: 0.9338, precision_lungs: 0.9682, recall_lungs: 0.9633, f1_score_lungs: 0.9658 
+     precision_classification: 0.8967, recall_classification: 0.8964,f1_score_classification: 0.8839 
+
+2023-11-14 10:54:56,643 - INFO - Epoch 184/200, Train Loss: 0.1104, Val Loss: 0.1120 
+     pixel_acc_infected: 0.9753, dice_infected: 0.7966,iou_infected: 0.6754, precision_infected: 0.8126, recall_infected: 0.8021, f1_score_infected: 0.8073 
+     pixel_acc_lungs: 0.9836, dice_lungs: 0.9657,iou_lungs: 0.9338, precision_lungs: 0.9682, recall_lungs: 0.9633, f1_score_lungs: 0.9658 
+     precision_classification: 0.8968, recall_classification: 0.8965,f1_score_classification: 0.8840 
+
+2023-11-14 10:56:03,627 - INFO - Epoch 185/200, Train Loss: 0.1211, Val Loss: 0.1124 
+     pixel_acc_infected: 0.9753, dice_infected: 0.7967,iou_infected: 0.6755, precision_infected: 0.8126, recall_infected: 0.8022, f1_score_infected: 0.8074 
+     pixel_acc_lungs: 0.9836, dice_lungs: 0.9657,iou_lungs: 0.9338, precision_lungs: 0.9682, recall_lungs: 0.9633, f1_score_lungs: 0.9658 
+     precision_classification: 0.8968, recall_classification: 0.8965,f1_score_classification: 0.8840 
+
+2023-11-14 10:57:11,649 - INFO - Epoch 186/200, Train Loss: 0.1100, Val Loss: 0.1140 
+     pixel_acc_infected: 0.9753, dice_infected: 0.7967,iou_infected: 0.6755, precision_infected: 0.8126, recall_infected: 0.8022, f1_score_infected: 0.8074 
+     pixel_acc_lungs: 0.9836, dice_lungs: 0.9657,iou_lungs: 0.9338, precision_lungs: 0.9682, recall_lungs: 0.9633, f1_score_lungs: 0.9658 
+     precision_classification: 0.8969, recall_classification: 0.8966,f1_score_classification: 0.8841 
+
+2023-11-14 10:58:19,622 - INFO - Epoch 187/200, Train Loss: 0.1189, Val Loss: 0.1128 
+     pixel_acc_infected: 0.9753, dice_infected: 0.7967,iou_infected: 0.6755, precision_infected: 0.8128, recall_infected: 0.8021, f1_score_infected: 0.8074 
+     pixel_acc_lungs: 0.9836, dice_lungs: 0.9657,iou_lungs: 0.9338, precision_lungs: 0.9683, recall_lungs: 0.9633, f1_score_lungs: 0.9658 
+     precision_classification: 0.8969, recall_classification: 0.8966,f1_score_classification: 0.8842 
+
+2023-11-14 10:59:51,758 - INFO - Epoch 188/200, Train Loss: 0.1195, Val Loss: 0.1179 
+     pixel_acc_infected: 0.9753, dice_infected: 0.7968,iou_infected: 0.6756, precision_infected: 0.8128, recall_infected: 0.8022, f1_score_infected: 0.8074 
+     pixel_acc_lungs: 0.9836, dice_lungs: 0.9657,iou_lungs: 0.9338, precision_lungs: 0.9683, recall_lungs: 0.9633, f1_score_lungs: 0.9658 
+     precision_classification: 0.8969, recall_classification: 0.8967,f1_score_classification: 0.8842 
+
+2023-11-14 11:01:57,134 - INFO - Epoch 189/200, Train Loss: 0.1139, Val Loss: 0.1129 
+     pixel_acc_infected: 0.9753, dice_infected: 0.7968,iou_infected: 0.6756, precision_infected: 0.8128, recall_infected: 0.8022, f1_score_infected: 0.8075 
+     pixel_acc_lungs: 0.9836, dice_lungs: 0.9657,iou_lungs: 0.9339, precision_lungs: 0.9683, recall_lungs: 0.9633, f1_score_lungs: 0.9658 
+     precision_classification: 0.8970, recall_classification: 0.8968,f1_score_classification: 0.8843 
+
+2023-11-14 11:04:02,428 - INFO - Epoch 190/200, Train Loss: 0.1096, Val Loss: 0.1124 
+     pixel_acc_infected: 0.9753, dice_infected: 0.7969,iou_infected: 0.6757, precision_infected: 0.8128, recall_infected: 0.8024, f1_score_infected: 0.8076 
+     pixel_acc_lungs: 0.9836, dice_lungs: 0.9657,iou_lungs: 0.9339, precision_lungs: 0.9683, recall_lungs: 0.9633, f1_score_lungs: 0.9658 
+     precision_classification: 0.8970, recall_classification: 0.8968,f1_score_classification: 0.8843 
+
+2023-11-14 11:06:07,683 - INFO - Epoch 191/200, Train Loss: 0.1068, Val Loss: 0.1122 
+     pixel_acc_infected: 0.9753, dice_infected: 0.7970,iou_infected: 0.6759, precision_infected: 0.8128, recall_infected: 0.8026, f1_score_infected: 0.8077 
+     pixel_acc_lungs: 0.9836, dice_lungs: 0.9657,iou_lungs: 0.9339, precision_lungs: 0.9683, recall_lungs: 0.9633, f1_score_lungs: 0.9658 
+     precision_classification: 0.8970, recall_classification: 0.8968,f1_score_classification: 0.8843 
+
+2023-11-14 11:06:07,684 - INFO - save model at epoch 191, saving model
+2023-11-14 11:08:13,888 - INFO - Epoch 192/200, Train Loss: 0.1126, Val Loss: 0.1124 
+     pixel_acc_infected: 0.9754, dice_infected: 0.7970,iou_infected: 0.6759, precision_infected: 0.8129, recall_infected: 0.8026, f1_score_infected: 0.8077 
+     pixel_acc_lungs: 0.9836, dice_lungs: 0.9657,iou_lungs: 0.9339, precision_lungs: 0.9683, recall_lungs: 0.9633, f1_score_lungs: 0.9658 
+     precision_classification: 0.8971, recall_classification: 0.8969,f1_score_classification: 0.8844 
+
+2023-11-14 11:10:51,027 - INFO - Epoch 193/200, Train Loss: 0.1150, Val Loss: 0.1158 
+     pixel_acc_infected: 0.9754, dice_infected: 0.7971,iou_infected: 0.6760, precision_infected: 0.8129, recall_infected: 0.8026, f1_score_infected: 0.8077 
+     pixel_acc_lungs: 0.9836, dice_lungs: 0.9657,iou_lungs: 0.9339, precision_lungs: 0.9683, recall_lungs: 0.9634, f1_score_lungs: 0.9658 
+     precision_classification: 0.8971, recall_classification: 0.8969,f1_score_classification: 0.8844 
+
+2023-11-14 11:12:57,081 - INFO - Epoch 194/200, Train Loss: 0.1218, Val Loss: 0.1149 
+     pixel_acc_infected: 0.9754, dice_infected: 0.7972,iou_infected: 0.6760, precision_infected: 0.8129, recall_infected: 0.8027, f1_score_infected: 0.8078 
+     pixel_acc_lungs: 0.9836, dice_lungs: 0.9657,iou_lungs: 0.9339, precision_lungs: 0.9683, recall_lungs: 0.9634, f1_score_lungs: 0.9658 
+     precision_classification: 0.8971, recall_classification: 0.8969,f1_score_classification: 0.8844 
+
+2023-11-14 11:15:02,269 - INFO - Epoch 195/200, Train Loss: 0.1085, Val Loss: 0.1142 
+     pixel_acc_infected: 0.9754, dice_infected: 0.7972,iou_infected: 0.6761, precision_infected: 0.8130, recall_infected: 0.8028, f1_score_infected: 0.8078 
+     pixel_acc_lungs: 0.9836, dice_lungs: 0.9657,iou_lungs: 0.9339, precision_lungs: 0.9683, recall_lungs: 0.9634, f1_score_lungs: 0.9658 
+     precision_classification: 0.8973, recall_classification: 0.8970,f1_score_classification: 0.8846 
+
+2023-11-14 11:17:07,335 - INFO - Epoch 196/200, Train Loss: 0.1123, Val Loss: 0.1158 
+     pixel_acc_infected: 0.9754, dice_infected: 0.7973,iou_infected: 0.6762, precision_infected: 0.8130, recall_infected: 0.8029, f1_score_infected: 0.8079 
+     pixel_acc_lungs: 0.9836, dice_lungs: 0.9657,iou_lungs: 0.9339, precision_lungs: 0.9683, recall_lungs: 0.9634, f1_score_lungs: 0.9658 
+     precision_classification: 0.8972, recall_classification: 0.8970,f1_score_classification: 0.8846 
+
+2023-11-14 11:18:40,362 - INFO - Epoch 197/200, Train Loss: 0.1148, Val Loss: 0.1112 
+     pixel_acc_infected: 0.9754, dice_infected: 0.7973,iou_infected: 0.6762, precision_infected: 0.8131, recall_infected: 0.8028, f1_score_infected: 0.8079 
+     pixel_acc_lungs: 0.9836, dice_lungs: 0.9658,iou_lungs: 0.9339, precision_lungs: 0.9683, recall_lungs: 0.9634, f1_score_lungs: 0.9658 
+     precision_classification: 0.8973, recall_classification: 0.8971,f1_score_classification: 0.8847 
+
+2023-11-14 11:19:47,939 - INFO - Epoch 198/200, Train Loss: 0.1199, Val Loss: 0.1123 
+     pixel_acc_infected: 0.9754, dice_infected: 0.7974,iou_infected: 0.6763, precision_infected: 0.8131, recall_infected: 0.8029, f1_score_infected: 0.8080 
+     pixel_acc_lungs: 0.9836, dice_lungs: 0.9658,iou_lungs: 0.9339, precision_lungs: 0.9683, recall_lungs: 0.9634, f1_score_lungs: 0.9658 
+     precision_classification: 0.8972, recall_classification: 0.8970,f1_score_classification: 0.8846 
+
+2023-11-14 11:20:54,797 - INFO - Epoch 199/200, Train Loss: 0.1147, Val Loss: 0.1127 
+     pixel_acc_infected: 0.9754, dice_infected: 0.7975,iou_infected: 0.6764, precision_infected: 0.8132, recall_infected: 0.8029, f1_score_infected: 0.8080 
+     pixel_acc_lungs: 0.9836, dice_lungs: 0.9658,iou_lungs: 0.9340, precision_lungs: 0.9683, recall_lungs: 0.9634, f1_score_lungs: 0.9659 
+     precision_classification: 0.8973, recall_classification: 0.8970,f1_score_classification: 0.8847 
+
+2023-11-14 11:22:01,872 - INFO - Epoch 200/200, Train Loss: 0.1101, Val Loss: 0.1118 
+     pixel_acc_infected: 0.9754, dice_infected: 0.7975,iou_infected: 0.6764, precision_infected: 0.8132, recall_infected: 0.8029, f1_score_infected: 0.8080 
+     pixel_acc_lungs: 0.9836, dice_lungs: 0.9658,iou_lungs: 0.9340, precision_lungs: 0.9683, recall_lungs: 0.9634, f1_score_lungs: 0.9659 
+     precision_classification: 0.8974, recall_classification: 0.8971,f1_score_classification: 0.8848 
+
+2023-11-14 11:22:01,873 - INFO - save model at epoch 200, saving model

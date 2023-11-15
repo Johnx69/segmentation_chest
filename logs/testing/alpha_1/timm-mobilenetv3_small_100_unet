@@ -1,15 +1,88 @@
-2023-11-06 07:10:18,076 - INFO - Used Weight File: checkpoints/alpha_1/timm-mobilenetv3_small_100_unet/epoch_199.ckpt
-2023-11-06 07:10:25,292 - INFO - pixel_acc_infected: 0.9730, dice_infected: 0.7993,iou_infected: 0.6679, precision_infected: 0.8035, recall_infected: 0.7992 
- pixel_acc_lungs: 0.9810, dice_lungs: 0.9598,iou_lungs: 0.9228, precision_lungs: 0.9689, recall_lungs: 0.9510 
-    precision_classification: 0.9074, recall_classification: 0.8991,f1_score_classification: 0.8936 
+2023-11-12 15:46:09,986 - INFO - Used Weight File: checkpoints/alpha_1/timm-mobilenetv3_small_100_unet/epoch_199.ckpt
+2023-11-12 15:46:17,857 - INFO - pixel_acc_infected: 0.9698, dice_infected: 0.7697,iou_infected: 0.6299, precision_infected: 0.7920, recall_infected: 0.7577, f1_score_infected: 0.7745 
+ pixel_acc_lungs: 0.9811, dice_lungs: 0.9600,iou_lungs: 0.9232, precision_lungs: 0.9672, recall_lungs: 0.9531, f1_score_lungs: 0.9601 
+    precision_classification: 0.8897, recall_classification: 0.8908,f1_score_classification: 0.8786 
 
-2023-11-06 07:11:00,766 - INFO - 4.31G
-2023-11-06 07:11:00,767 - INFO - pixel_acc_infected: 0.9730, dice_infected: 0.8271,iou_infected: 0.7319, precision_infected: 0.8370, recall_infected: 0.8429 
- pixel_acc_lungs: 0.9810, dice_lungs: 0.9583,iou_lungs: 0.9215, precision_lungs: 0.9680, recall_lungs: 0.9503 
-    precision_classification: 0.9164, recall_classification: 0.9123,f1_score_classification: 0.9095 
+2023-11-12 15:46:54,347 - INFO - 2.17G
+2023-11-12 15:46:54,348 - INFO - pixel_acc_infected: 0.9698, dice_infected: 0.8144,iou_infected: 0.7568, precision_infected: 0.8533, recall_infected: 0.8635, f1_score_infected: 0.8583 
+ pixel_acc_lungs: 0.9811, dice_lungs: 0.9573,iou_lungs: 0.9210, precision_lungs: 0.9649, recall_lungs: 0.9522, f1_score_lungs: 0.9585 
+    precision_classification: 0.9099, recall_classification: 0.9099,f1_score_classification: 0.9099 
 
-2023-11-06 07:11:00,767 - INFO - after postprocess
-2023-11-06 07:11:40,877 - INFO - pixel_acc_infected: 0.9730, dice_infected: 0.8369,iou_infected: 0.7538, precision_infected: 0.8483, recall_infected: 0.8580 
- pixel_acc_lungs: 0.9810, dice_lungs: 0.9579,iou_lungs: 0.9211, precision_lungs: 0.9675, recall_lungs: 0.9503 
-    precision_classification: 0.9194, recall_classification: 0.9166,f1_score_classification: 0.9148 
+2023-11-12 15:46:54,348 - INFO - after postprocess
+2023-11-12 15:47:35,114 - INFO - pixel_acc_infected: 0.9698, dice_infected: 0.8182,iou_infected: 0.7608, precision_infected: 0.8564, recall_infected: 0.8647, f1_score_infected: 0.8605 
+ pixel_acc_lungs: 0.9812, dice_lungs: 0.9575,iou_lungs: 0.9213, precision_lungs: 0.9644, recall_lungs: 0.9530, f1_score_lungs: 0.9587  
+    precision_classification: 0.9099, recall_classification: 0.9099,f1_score_classification: 0.9099 
+
+2023-11-12 16:05:41,650 - INFO - Used Weight File: checkpoints/alpha_1/timm-mobilenetv3_small_100_unet/epoch_199.ckpt
+2023-11-12 16:05:50,313 - INFO - pixel_acc_infected: 0.9698, dice_infected: 0.7619,iou_infected: 0.6230, precision_infected: 0.7813, recall_infected: 0.7548, f1_score_infected: 0.7679 
+ pixel_acc_lungs: 0.9811, dice_lungs: 0.9601,iou_lungs: 0.9234, precision_lungs: 0.9671, recall_lungs: 0.9533, f1_score_lungs: 0.9602 
+    precision_classification: 0.8893, recall_classification: 0.8825,f1_score_classification: 0.8736 
+
+2023-11-12 16:06:28,913 - INFO - 2.17G
+2023-11-12 16:06:28,914 - INFO - pixel_acc_infected: 0.9698, dice_infected: 0.8144,iou_infected: 0.7568, precision_infected: 0.8533, recall_infected: 0.8635, f1_score_infected: 0.8583 
+ pixel_acc_lungs: 0.9811, dice_lungs: 0.9573,iou_lungs: 0.9210, precision_lungs: 0.9649, recall_lungs: 0.9522, f1_score_lungs: 0.9585 
+    precision_classification: 0.9099, recall_classification: 0.9099,f1_score_classification: 0.9099 
+
+2023-11-12 16:06:28,914 - INFO - 0.9099485420240138, 0.9585171937942505, 0.9209655523300171, 0.9572777152061462
+2023-11-12 16:06:28,915 - INFO - 0.8583368062973022, 0.7568328976631165, 0.8143870830535889
+2023-11-12 16:06:28,916 - INFO - 0.9089341163635254
+2023-11-12 16:06:28,916 - INFO - after postprocess
+2023-11-12 16:07:18,497 - INFO - pixel_acc_infected: 0.9698, dice_infected: 0.8182,iou_infected: 0.7608, precision_infected: 0.8564, recall_infected: 0.8647, f1_score_infected: 0.8605 
+ pixel_acc_lungs: 0.9812, dice_lungs: 0.9575,iou_lungs: 0.9213, precision_lungs: 0.9644, recall_lungs: 0.9530, f1_score_lungs: 0.9587  
+    precision_classification: 0.9099, recall_classification: 0.9099,f1_score_classification: 0.9099 
+
+2023-11-12 16:07:18,498 - INFO - 0.9099485420240138, 0.9586804509162903, 0.9212649464607239, 0.9574577808380127
+2023-11-12 16:07:18,498 - INFO - 0.8605234622955322, 0.7607583403587341, 0.8182112574577332
+2023-11-12 16:07:18,499 - INFO - 0.9097175002098083
+2023-11-13 23:08:41,298 - INFO - Used Weight File: checkpoints/alpha_1/timm-mobilenetv3_small_100_unet/epoch_199.ckpt
+2023-11-13 23:08:49,938 - INFO - pixel_acc_infected: 0.9698, dice_infected: 0.7618,iou_infected: 0.6228, precision_infected: 0.7828, recall_infected: 0.7544, f1_score_infected: 0.7683 
+ pixel_acc_lungs: 0.9811, dice_lungs: 0.9600,iou_lungs: 0.9233, precision_lungs: 0.9671, recall_lungs: 0.9532, f1_score_lungs: 0.9601 
+    precision_classification: 0.8966, recall_classification: 0.8890,f1_score_classification: 0.8787 
+
+2023-11-13 23:09:23,781 - INFO - 2.17G
+2023-11-13 23:09:23,782 - INFO - pixel_acc_infected: 0.9698, dice_infected: 0.8144,iou_infected: 0.7568, precision_infected: 0.8533, recall_infected: 0.8635, f1_score_infected: 0.8583 
+ pixel_acc_lungs: 0.9811, dice_lungs: 0.9573,iou_lungs: 0.9210, precision_lungs: 0.9649, recall_lungs: 0.9522, f1_score_lungs: 0.9585 
+    precision_classification: 0.9099, recall_classification: 0.9099,f1_score_classification: 0.9099 
+
+2023-11-13 23:09:24,032 - INFO - after postprocess
+2023-11-13 23:10:02,301 - INFO - pixel_acc_infected: 0.9698, dice_infected: 0.8182,iou_infected: 0.7608, precision_infected: 0.8564, recall_infected: 0.8647, f1_score_infected: 0.8605 
+ pixel_acc_lungs: 0.9812, dice_lungs: 0.9575,iou_lungs: 0.9213, precision_lungs: 0.9644, recall_lungs: 0.9530, f1_score_lungs: 0.9587  
+    precision_classification: 0.9099, recall_classification: 0.9099,f1_score_classification: 0.9099 
+
+2023-11-13 23:11:03,963 - INFO - Used Weight File: checkpoints/alpha_1/timm-mobilenetv3_small_100_unet/epoch_199.ckpt
+2023-11-13 23:11:13,039 - INFO - pixel_acc_infected: 0.9698, dice_infected: 0.7644,iou_infected: 0.6245, precision_infected: 0.7863, recall_infected: 0.7583, f1_score_infected: 0.7721 
+ pixel_acc_lungs: 0.9811, dice_lungs: 0.9602,iou_lungs: 0.9236, precision_lungs: 0.9673, recall_lungs: 0.9533, f1_score_lungs: 0.9602 
+    precision_classification: 0.8876, recall_classification: 0.8856,f1_score_classification: 0.8740 
+
+2023-11-13 23:11:47,344 - INFO - 2.17G
+2023-11-13 23:11:47,346 - INFO - pixel_acc_infected: 0.9698, dice_infected: 0.8144,iou_infected: 0.7568, precision_infected: 0.8533, recall_infected: 0.8635, f1_score_infected: 0.8583 
+ pixel_acc_lungs: 0.9811, dice_lungs: 0.9573,iou_lungs: 0.9210, precision_lungs: 0.9649, recall_lungs: 0.9522, f1_score_lungs: 0.9585 
+    precision_classification: 0.9099, recall_classification: 0.9099,f1_score_classification: 0.9099 
+
+2023-11-13 23:11:47,596 - INFO - after postprocess
+2023-11-13 23:12:26,562 - INFO - pixel_acc_infected: 0.9698, dice_infected: 0.8182,iou_infected: 0.7608, precision_infected: 0.8564, recall_infected: 0.8647, f1_score_infected: 0.8605 
+ pixel_acc_lungs: 0.9812, dice_lungs: 0.9575,iou_lungs: 0.9213, precision_lungs: 0.9644, recall_lungs: 0.9530, f1_score_lungs: 0.9587  
+    precision_classification: 0.9099, recall_classification: 0.9099,f1_score_classification: 0.9099 
+
+2023-11-13 23:18:07,639 - INFO - Used Weight File: checkpoints/alpha_1/timm-mobilenetv3_small_100_unet/epoch_199.ckpt
+2023-11-13 23:18:47,189 - INFO - 0.0755G
+2023-11-13 23:18:47,191 - INFO - pixel_acc_infected: 0.9698, dice_infected: 0.8144,iou_infected: 0.7568, precision_infected: 0.8533, recall_infected: 0.8635, f1_score_infected: 0.8583 
+ pixel_acc_lungs: 0.9811, dice_lungs: 0.9573,iou_lungs: 0.9210, precision_lungs: 0.9649, recall_lungs: 0.9522, f1_score_lungs: 0.9585 
+    precision_classification: 0.9099, recall_classification: 0.9099,f1_score_classification: 0.9099 
+
+2023-11-13 23:18:47,449 - INFO - after postprocess
+2023-11-13 23:19:24,007 - INFO - pixel_acc_infected: 0.9698, dice_infected: 0.8182,iou_infected: 0.7608, precision_infected: 0.8564, recall_infected: 0.8647, f1_score_infected: 0.8605 
+ pixel_acc_lungs: 0.9812, dice_lungs: 0.9575,iou_lungs: 0.9213, precision_lungs: 0.9644, recall_lungs: 0.9530, f1_score_lungs: 0.9587  
+    precision_classification: 0.9099, recall_classification: 0.9099,f1_score_classification: 0.9099 
+
+2023-11-14 08:00:42,484 - INFO - Used Weight File: checkpoints/alpha_1/timm-mobilenetv3_small_100_unet/epoch_199.ckpt
+2023-11-14 08:01:15,449 - INFO - 0.0755G
+2023-11-14 08:01:15,451 - INFO - pixel_acc_infected: 0.9698, dice_infected: 0.8144,iou_infected: 0.7568, precision_infected: 0.8533, recall_infected: 0.8635, f1_score_infected: 0.8583 
+ pixel_acc_lungs: 0.9811, dice_lungs: 0.9573,iou_lungs: 0.9210, precision_lungs: 0.9649, recall_lungs: 0.9522, f1_score_lungs: 0.9585 
+    precision_classification: 0.9099, recall_classification: 0.9099,f1_score_classification: 0.9099 
+
+2023-11-14 08:01:15,696 - INFO - after postprocess
+2023-11-14 08:01:48,819 - INFO - pixel_acc_infected: 0.9698, dice_infected: 0.8182,iou_infected: 0.7608, precision_infected: 0.8564, recall_infected: 0.8647, f1_score_infected: 0.8605 
+ pixel_acc_lungs: 0.9812, dice_lungs: 0.9575,iou_lungs: 0.9213, precision_lungs: 0.9644, recall_lungs: 0.9530, f1_score_lungs: 0.9587  
+    precision_classification: 0.9099, recall_classification: 0.9099,f1_score_classification: 0.9099 
 

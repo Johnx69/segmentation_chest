@@ -1,6 +1,6 @@
 {
-    "encoder_name": "mit_b3",
-    "decoder_name": "unet",
+    "encoder_name": "densenet121",
+    "decoder_name": "deeplabv3",
     "classes": 3,
     "pooling": "avg",
     "dropout": 0.5,

@@ -1,0 +1,11 @@
+2023-11-14 11:49:41,566 - INFO - Used Weight File: checkpoints/alpha_1/inceptionv4_fpn/epoch_199.ckpt
+2023-11-14 11:50:28,756 - INFO - 0.392G
+2023-11-14 11:50:28,757 - INFO - pixel_acc_infected: 0.9769, dice_infected: 0.8689,iou_infected: 0.8145, precision_infected: 0.8902, recall_infected: 0.8878, f1_score_infected: 0.8890 
+ pixel_acc_lungs: 0.9829, dice_lungs: 0.9624,iou_lungs: 0.9292, precision_lungs: 0.9648, recall_lungs: 0.9618, f1_score_lungs: 0.9633 
+    precision_classification: 0.9494, recall_classification: 0.9494,f1_score_classification: 0.9494 
+
+2023-11-14 11:50:28,993 - INFO - after postprocess
+2023-11-14 11:51:16,847 - INFO - pixel_acc_infected: 0.9769, dice_infected: 0.8692,iou_infected: 0.8148, precision_infected: 0.8902, recall_infected: 0.8884, f1_score_infected: 0.8893 
+ pixel_acc_lungs: 0.9829, dice_lungs: 0.9625,iou_lungs: 0.9293, precision_lungs: 0.9645, recall_lungs: 0.9622, f1_score_lungs: 0.9634  
+    precision_classification: 0.9494, recall_classification: 0.9494,f1_score_classification: 0.9494 
+

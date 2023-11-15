@@ -34,6 +34,24 @@ pip install --no-cache-dir -r requirements.txt
 |                    | Inceptionv4     | 92.09                 | 95.14                    | 90.77               | 95.05                | 82.21                          | 71.30                     | 80.39                     | 89.81   |
 |                    | efficientnet-b4 | 93.05                 | 96.47                    | 93.20               | 96.42                | 86.62                          | 77.53                     | 85.27                     | 92.04   |
 
+CNN new_experiments
+
+| Condition          | Backbone          | Classification F1 Score | Lung segmentation F1 Score | Lung segmentation IoU | Lung segmentation Dice | Infection segmentation F1 Score | Infection segmentation IoU | Infection segmentation Dice | Mean F1       |
+|---------------------|-------------------|--------------------------|-----------------------------|------------------------|------------------------|----------------------------------|-----------------------------|-----------------------------|---------------|
+|                     |                   |                          |                             |                        |                        |                                  |                             |                             |               |
+| w/o processing     | Resnet50          | 95.19                    | 96.47                       | 93.20                  | 96.39                  | 88.64                            | 81.02                       | 86.70                       | 93.43         |
+|                     | Mobilenetv3       | 90.99                    | 95.85                       | 92.09                  | 95.72                  | 85.83                            | 75.68                       | 81.43                       | 90.89         |
+|                     | Densenet121       | 93.91                    | 96.54                       | 93.34                  | 96.46                  | 88.04                            | 79.29                       | 84.88                       | 92.83         |
+|                     | Inceptionv4       | 94.51                    | 96.47                       | 93.20                  | 96.38                  | 88.90                            | 81.35                       | 86.85                       | 93.29         |
+|                     | efficientnet-b4    | 92.88                    | 96.34                       | 92.96                  | 96.25                  | 88.72                            | 81.04                       | 86.74                       | 92.64         |
+|                     |                   |                          |                             |                        |                        |                                  |                             |                             |               |
+| w post processing   | Resnet50          | 95.19                    | 96.47                       | 93.21                  | 96.39                  | 88.73                            | 81.08                       | 86.75                       | 93.46         |
+|                     | Mobilenetv3       | 90.99                    | 95.86                       | 92.12                  | 95.74                  | 86.05                            | 76.07                       | 81.82                       | 90.97         |
+|                     | Densenet121       | 93.91                    | 96.55                       | 93.35                  | 96.47                  | 88.25                            | 79.59                       | 85.16                       | 92.90         |
+|                     | Inceptionv4       | 94.51                    | 96.47                       | 93.21                  | 96.39                  | 88.98                            | 81.47                       | 86.97                       | 93.32         |
+|                     | efficientnet-b4    | 92.88                    | 96.35                       | 92.98                  | 96.26                  | 88.81                            | 81.09                       | 86.78                       | 92.68         |
+
+
 ## 2. Results (Transformer)
 
 |                  | Backbone | Classification F1 score | Lung segmentation F1 score | Lung segmentation IoU | Lung segmentation Dice | Infection segmentation F1 score | Infection segmentation IoU | Infection segmentation Dice | Mean F1 score |
@@ -47,4 +65,3 @@ pip install --no-cache-dir -r requirements.txt
 |                  | mit_b1   | 87.99                    | 96.19                     | 92.68                 | 96.11                  | 86.03                          | 75.93                       | 81.54                        | 90.07         |
 |                  | mit_b2   | 91.68                    | 96.19                     | 92.70                 | 96.11                  | 87.74                          | 79.02                       | 84.59                        | 91.87         |
 |                  | mit_b3   | 91.34                    | 96.21                     | 92.73                 | 96.13                  | 86.89                          | 77.60                       | 83.26                        | 91.48         |
->>>>>>> c9aa5c196f30bef973d85aef56d14d290c994a18

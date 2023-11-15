@@ -12,4 +12,3 @@
 2023-11-11 00:21:04,794 - INFO - pixel_acc_infected: 0.9743, dice_infected: 0.8326,iou_infected: 0.7760, precision_infected: 0.8680, recall_infected: 0.8697, f1_score_infected: 0.8689 
  pixel_acc_lungs: 0.9827, dice_lungs: 0.9613,iou_lungs: 0.9273, precision_lungs: 0.9660, recall_lungs: 0.9583, f1_score_lungs: 0.9621  
     precision_classification: 0.9134, recall_classification: 0.9134,f1_score_classification: 0.9134 
-

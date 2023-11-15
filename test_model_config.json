@@ -1,6 +1,6 @@
 {
-    "encoder_name": "mit_b3",
-    "decoder_name": "unet",
+    "encoder_name": "timm-mobilenetv3_small_100",
+    "decoder_name": "fpn",
     "classes": 3,
     "pooling": "avg",
     "dropout": 0.5,

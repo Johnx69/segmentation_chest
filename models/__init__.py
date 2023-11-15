@@ -5,6 +5,9 @@
 # from . import metrics
 
 from .decoders.unet import Unet
+from .decoders.unetplusplus import UnetPlusPlus
+from .decoders.fpn import FPN
+from .decoders.deeplabv3 import DeepLabV3
 
 # some private imports for create_model function
 from typing import Optional as _Optional
@@ -23,9 +26,7 @@ def create_model(
     parameters, without using its class
     """
 
-    archs = [
-        Unet,
-    ]
+    archs = [Unet, UnetPlusPlus, FPN, DeepLabV3]
     archs_dict = {a.__name__.lower(): a for a in archs}
     try:
         model_class = archs_dict[arch.lower()]

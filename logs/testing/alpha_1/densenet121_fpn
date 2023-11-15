@@ -1,0 +1,11 @@
+2023-11-14 11:47:53,340 - INFO - Used Weight File: checkpoints/alpha_1/densenet121_fpn/epoch_199.ckpt
+2023-11-14 11:48:37,931 - INFO - 0.136G
+2023-11-14 11:48:37,932 - INFO - pixel_acc_infected: 0.9764, dice_infected: 0.8622,iou_infected: 0.8068, precision_infected: 0.8896, recall_infected: 0.8836, f1_score_infected: 0.8866 
+ pixel_acc_lungs: 0.9825, dice_lungs: 0.9612,iou_lungs: 0.9269, precision_lungs: 0.9636, recall_lungs: 0.9603, f1_score_lungs: 0.9620 
+    precision_classification: 0.9503, recall_classification: 0.9503,f1_score_classification: 0.9503 
+
+2023-11-14 11:48:38,175 - INFO - after postprocess
+2023-11-14 11:49:22,569 - INFO - pixel_acc_infected: 0.9764, dice_infected: 0.8624,iou_infected: 0.8072, precision_infected: 0.8908, recall_infected: 0.8838, f1_score_infected: 0.8872 
+ pixel_acc_lungs: 0.9825, dice_lungs: 0.9612,iou_lungs: 0.9269, precision_lungs: 0.9634, recall_lungs: 0.9606, f1_score_lungs: 0.9620  
+    precision_classification: 0.9503, recall_classification: 0.9503,f1_score_classification: 0.9503 
+

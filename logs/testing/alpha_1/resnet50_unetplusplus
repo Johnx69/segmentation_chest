@@ -1,0 +1,11 @@
+2023-11-14 08:02:10,626 - INFO - Used Weight File: checkpoints/alpha_1/resnet50_unetplusplus/epoch_199.ckpt
+2023-11-14 08:02:58,491 - INFO - 0.705G
+2023-11-14 08:02:58,492 - INFO - pixel_acc_infected: 0.9743, dice_infected: 0.7782,iou_infected: 0.7212, precision_infected: 0.8032, recall_infected: 0.8829, f1_score_infected: 0.8412 
+ pixel_acc_lungs: 0.9839, dice_lungs: 0.9642,iou_lungs: 0.9327, precision_lungs: 0.9685, recall_lungs: 0.9616, f1_score_lungs: 0.9650 
+    precision_classification: 0.9322, recall_classification: 0.9322,f1_score_classification: 0.9322 
+
+2023-11-14 08:02:58,742 - INFO - after postprocess
+2023-11-14 08:03:47,937 - INFO - pixel_acc_infected: 0.9743, dice_infected: 0.7913,iou_infected: 0.7345, precision_infected: 0.8141, recall_infected: 0.8859, f1_score_infected: 0.8485 
+ pixel_acc_lungs: 0.9839, dice_lungs: 0.9643,iou_lungs: 0.9328, precision_lungs: 0.9678, recall_lungs: 0.9624, f1_score_lungs: 0.9651  
+    precision_classification: 0.9322, recall_classification: 0.9322,f1_score_classification: 0.9322 
+

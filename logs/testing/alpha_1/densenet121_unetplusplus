@@ -1,0 +1,22 @@
+2023-11-14 08:04:21,681 - INFO - Used Weight File: checkpoints/alpha_1/densenet121_unetplusplus/epoch_199.ckpt
+2023-11-14 08:05:23,123 - INFO - 0.589G
+2023-11-14 08:05:23,124 - INFO - pixel_acc_infected: 0.9767, dice_infected: 0.8510,iou_infected: 0.7951, precision_infected: 0.8884, recall_infected: 0.8728, f1_score_infected: 0.8805 
+ pixel_acc_lungs: 0.9847, dice_lungs: 0.9661,iou_lungs: 0.9360, precision_lungs: 0.9690, recall_lungs: 0.9646, f1_score_lungs: 0.9668 
+    precision_classification: 0.9434, recall_classification: 0.9434,f1_score_classification: 0.9434 
+
+2023-11-14 08:05:23,363 - INFO - after postprocess
+2023-11-14 08:06:26,006 - INFO - pixel_acc_infected: 0.9768, dice_infected: 0.8523,iou_infected: 0.7965, precision_infected: 0.8906, recall_infected: 0.8740, f1_score_infected: 0.8822 
+ pixel_acc_lungs: 0.9847, dice_lungs: 0.9661,iou_lungs: 0.9361, precision_lungs: 0.9684, recall_lungs: 0.9652, f1_score_lungs: 0.9668  
+    precision_classification: 0.9434, recall_classification: 0.9434,f1_score_classification: 0.9434 
+
+2023-11-14 08:09:40,061 - INFO - Used Weight File: checkpoints/alpha_1/densenet121_unetplusplus/epoch_199.ckpt
+2023-11-14 08:10:42,593 - INFO - 0.589G
+2023-11-14 08:10:42,594 - INFO - pixel_acc_infected: 0.9767, dice_infected: 0.8510,iou_infected: 0.7951, precision_infected: 0.8884, recall_infected: 0.8728, f1_score_infected: 0.8805 
+ pixel_acc_lungs: 0.9847, dice_lungs: 0.9661,iou_lungs: 0.9360, precision_lungs: 0.9690, recall_lungs: 0.9646, f1_score_lungs: 0.9668 
+    precision_classification: 0.9434, recall_classification: 0.9434,f1_score_classification: 0.9434 
+
+2023-11-14 08:10:42,807 - INFO - after postprocess
+2023-11-14 08:11:45,252 - INFO - pixel_acc_infected: 0.9768, dice_infected: 0.8523,iou_infected: 0.7965, precision_infected: 0.8906, recall_infected: 0.8740, f1_score_infected: 0.8822 
+ pixel_acc_lungs: 0.9847, dice_lungs: 0.9661,iou_lungs: 0.9361, precision_lungs: 0.9684, recall_lungs: 0.9652, f1_score_lungs: 0.9668  
+    precision_classification: 0.9434, recall_classification: 0.9434,f1_score_classification: 0.9434 
+

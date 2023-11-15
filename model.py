@@ -20,13 +20,40 @@ class Model:
             dropout=dropout,  # dropout ratio, default is None
             classes=classes,  # define number of output labels
         )
-        self.model = models.Unet(
-            encoder_name=encoder_name,  # choose encoder, e.g. mobilenet_v2 or efficientnet-b7
-            encoder_weights=encoder_weights,  # use `imagenet` pre-trained weights for encoder initialization
-            in_channels=in_channels,  # model input channels (1 for gray-scale images, 3 for RGB, etc.)
-            classes=unet_class,  # Binary output for unet
-            aux_params=aux_params,  # model output channels (number of classes in your dataset)
-        )
+
+        if decoder_name == "unetplusplus":
+            self.model = models.UnetPlusPlus(
+                encoder_name=encoder_name,  # choose encoder, e.g. mobilenet_v2 or efficientnet-b7
+                encoder_weights=encoder_weights,  # use `imagenet` pre-trained weights for encoder initialization
+                in_channels=in_channels,  # model input channels (1 for gray-scale images, 3 for RGB, etc.)
+                classes=unet_class,  # Binary output for unet
+                aux_params=aux_params,  # model output channels (number of classes in your dataset)
+            )
+            
+        elif decoder_name == "fpn":
+            self.model = models.FPN(
+                encoder_name=encoder_name,  # choose encoder, e.g. mobilenet_v2 or efficientnet-b7
+                encoder_weights=encoder_weights,  # use `imagenet` pre-trained weights for encoder initialization
+                in_channels=in_channels,  # model input channels (1 for gray-scale images, 3 for RGB, etc.)
+                classes=unet_class,  # Binary output for unet
+                aux_params=aux_params,  # model output channels (number of classes in your dataset)
+            )
+        elif decoder_name == 'deeplabv3':
+            self.model = models.DeepLabV3(
+                encoder_name=encoder_name,  # choose encoder, e.g. mobilenet_v2 or efficientnet-b7
+                encoder_weights=encoder_weights,  # use `imagenet` pre-trained weights for encoder initialization
+                in_channels=in_channels,  # model input channels (1 for gray-scale images, 3 for RGB, etc.)
+                classes=unet_class,  # Binary output for unet
+                aux_params=aux_params,  # model output channels (number of classes in your dataset)
+            )
+        else:
+            self.model = models.Unet(
+                encoder_name=encoder_name,  # choose encoder, e.g. mobilenet_v2 or efficientnet-b7
+                encoder_weights=encoder_weights,  # use `imagenet` pre-trained weights for encoder initialization
+                in_channels=in_channels,  # model input channels (1 for gray-scale images, 3 for RGB, etc.)
+                classes=unet_class,  # Binary output for unet
+                aux_params=aux_params,  # model output channels (number of classes in your dataset)
+            )
 
     def get_model(self):
         return self.model
